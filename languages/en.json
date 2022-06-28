@@ -1,0 +1,50 @@
+{
+    "navBar": {
+        "title": "Software Developer",
+        "items": {
+            "about": "About me",
+            "projects": "Projects",
+            "skills": "Skills",
+            "network": "Network"
+        },
+        "languages": {
+            "es": "Spanish",
+            "en": "English",
+            "ca": "Catalan"
+        }
+    },
+    "content": {
+        "about": {
+            "main-title": "About me",
+            "text": "Creating, programming and designing are a few of the things that make programming and the world of technology in general very interesting to me. I have recently started programming, and today I have acquired a lot of knowledge about this world. Even so, I know that I still have a lot to learn.<br/><br/>As hobbies, apart of programming, I really enjoy watching series, listening to music from several styles and also playing videogames.",
+            "cv": "Download my CV here!"
+        },        
+        "projects": {
+            "main-title": "Projects",
+            "project-1": "Portfolio",
+            "description-1": "Portfolio",
+            "project-2": "Blog with dashboard",
+            "description-2": "Blog with dashboard",
+            "site-1": "Github repository",
+            "site-2": "Official website",
+            "more": "Look at other projects in my GitHub!"
+        },
+        "skills": {
+            "main-title": "Skills",
+            "tech-title": "Programming languages and tech",
+            "tech-1": "Android Studio - Java",
+            "tech-2": "Angular - HTML, CSS and TypeScript",
+            "tech-3": "Databases - SQL and MySQL",
+            "tech-4": "Others - PHP, C# and VB.NET",
+            "personal-title": "Personal skills",
+            "personal-1": "Easy and rapid learning of programming languages",
+            "personal-2": "Creative and original",
+            "personal-3": "Resolutive",
+            "personal-4": "Multilingual",
+            "personal-5": "Teamwork and good relation with partners"
+        },
+        "network": {
+            "main-title": "Network"
+        }
+    }
+}

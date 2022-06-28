@@ -1,0 +1,50 @@
+{
+    "navBar": {
+        "title": "Desenvolupador de Software",
+        "items": {
+            "about": "Sobre mí",
+            "projects": "Projectes",
+            "skills": "Habilitats",
+            "network": "Xarxes"
+        },
+        "languages": {
+            "es": "Espanyol",
+            "en": "Anglès",
+            "ca": "Català"
+        }
+    },
+    "content": {
+        "about": {
+            "main-title": "Sobre mí",
+            "text": "Crear, programar i dissenyar son varies de les coses que fa que la programació i el món en general de les tecnologies em semblin molt interessants. Fa molt poc que vaig començar a programar, i a día d’avui he adquirit molts coneixements d’aquest món. Tot i així, sé que em queda molt per aprendre.<br/><br/>Com a hobbies, apart de la programació, m’agrada molt veure series, escoltar música de moltíssims estils i també jugar a videojocs.",
+            "cv": "Descarrega el meu CV aquí!" 
+        },
+        "projects": {
+            "main-title": "Projectes",
+            "project-1": "Portfoli",
+            "description-1": "Portfoli",
+            "project-2": "Blog amb panell d'admin",
+            "description-2": "Blog amb panell d'admin",
+            "site-1": "Repositori de Github",
+            "site-2": "Lloc web oficial",
+            "more": "Mira altres projectes al meu GitHub!"
+        },
+        "skills": {
+            "main-title": "Habilitats",
+            "tech-title": "Llenguajes de programació i tecnologies",
+            "tech-1": "Android Studio - Java",
+            "tech-2": "Angular - HTML, CSS i TypeScript",
+            "tech-3": "Bases de dades - SQL i MySQL",
+            "tech-4": "Altres - PHP, C# i VB.NET",
+            "personal-title": "Aptituts personals",
+            "personal-1": "Fàcil i ràpid aprenentatge dels llenguatges de programació",
+            "personal-2": "Creatiu i original",
+            "personal-3": "Resolutiu",
+            "personal-4": "Multilingüe",
+            "personal-5": "Treball en equip i bona relació amb els companys"
+        },
+        "network": {
+            "main-title": "Xarxes"
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "navBar": {
+        "title": "Desarrollador de Software",
+        "items": {
+            "about": "Sobre mí",
+            "projects": "Proyectos",
+            "skills": "Habilidades",
+            "network": "Redes"
+        },
+        "languages": {
+            "es": "Español",
+            "en": "Inglés",
+            "ca": "Catalán"
+        }
+    },
+    "content": {
+        "about": {
+            "main-title": "Sobre mí",
+            "text": "Crear, programar y diseñar son varias de las cosas que hace que la programación y el mundo en general de las tecnologías me parezcan muy interesantes. Hace muy poco que empecé a programar, y hoy en día he adquirido muchos conocimientos de este mundo. Aún así, sé que me queda mucho por aprender.<br/><br/>Como hobbies, aparte de la programación, me gusta mucho ver series, escuchar música de muchísimos estilos y también jugar a videojuegos.",
+            "cv": "¡Descarga mi CV aquí!"
+        },
+        "projects": {
+            "main-title": "Proyectos",
+            "project-1": "Portfolio",
+            "description-1": "Portfolio",
+            "project-2": "Blog con panel de admin",
+            "description-2": "Blog con panel de admin",
+            "site-1": "Repositorio de Github",
+            "site-2": "Sitio web oficial",
+            "more": "¡Mira otros proyectos en mi GitHub!"
+        },
+        "skills": {
+            "main-title": "Habilidades",
+            "tech-title": "Lenguajes de programación y tecnologías",
+            "tech-1": "Android Studio - Java",
+            "tech-2": "Angular - HTML, CSS y TypeScript",
+            "tech-3": "Bases de datos - SQL y MySQL",
+            "tech-4": "Otros - PHP, C# y VB.NET",
+            "personal-title": "Aptitudes personales",
+            "personal-1": "Fácil y rápido aprendizaje de lenguajes de programación",
+            "personal-2": "Creativo y original",
+            "personal-3": "Resolutivo",
+            "personal-4": "Multilingüe",
+            "personal-5": "Trabajo en equipo y buena relación con los compañeros"
+        },
+        "network": {
+            "main-title": "Redes"
+        }
+    }
+}
