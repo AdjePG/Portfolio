@@ -7,7 +7,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #00A7FF;
+  background: #23b2ff;
   border-radius: 6px;
   border: 3px solid #004472;
 }
@@ -25,6 +25,10 @@
   outline: none;
   transition: none;
 }
+* i {
+  display: block;
+  overflow: hidden;
+}
 
 body {
   background: #015994;
@@ -35,7 +39,7 @@ body {
   align-items: center;
   justify-content: space-between;
   background: #004472;
-  color: #00A7FF;
+  color: #23b2ff;
   padding: 5px;
   overflow: hidden;
   min-width: 290px;
@@ -77,7 +81,7 @@ body {
   height: 34px;
   margin: 0 0 0 8px;
   border-radius: 5px;
-  color: #00A7FF;
+  color: #23b2ff;
   background: none;
   cursor: pointer;
   transition: ease 100ms;
@@ -90,7 +94,7 @@ body {
   display: flex;
   align-items: center;
   padding: 7px;
-  color: #00A7FF;
+  color: #23b2ff;
 }
 .header .options nav ul li a p {
   display: inline-block;
@@ -106,7 +110,7 @@ body {
   padding: 7px;
   border-radius: 5px;
   cursor: pointer;
-  background: #00A7FF;
+  background: #23b2ff;
   color: #004472;
   transition: ease 100ms;
 }
@@ -124,7 +128,7 @@ body {
   display: none;
   border-radius: 5px;
   cursor: pointer;
-  background: #00A7FF;
+  background: #23b2ff;
 }
 .header .options .lang-selection.visible {
   display: flex;
@@ -171,13 +175,14 @@ body {
 .content .section {
   font-size: 40px;
   text-align: center;
-  color: #00A7FF;
+  color: #23b2ff;
   margin: 40px 0 10px 0;
 }
 .content .about-me .profile {
   display: grid;
   grid-template-areas: "photo bio" "photo cv";
   grid-template-rows: auto 54px;
+  grid-template-columns: 300px auto;
 }
 .content .about-me .profile .photo {
   grid-area: photo;
@@ -205,7 +210,7 @@ body {
   align-items: center;
   padding: 7px;
   border-radius: 5px;
-  color: #00A7FF;
+  color: #23b2ff;
   transition: ease 100ms;
 }
 .content .about-me .profile .cv a i {
@@ -224,6 +229,7 @@ body {
   display: grid;
   grid-template-areas: "image content" "sites content";
   grid-template-rows: 168.75px;
+  grid-template-columns: 300px;
   margin: 4px 0 0 0;
 }
 .content .projects .project:first-of-type {
@@ -236,16 +242,16 @@ body {
 }
 .content .projects .project .info {
   grid-area: content;
-  width: 700px;
 }
 .content .projects .project .info .title {
   padding: 10px;
   font-size: 22px;
   text-align: center;
   background: #004472;
-  color: #00A7FF;
+  color: #23b2ff;
 }
 .content .projects .project .info .description {
+  text-align: justify;
   height: calc(100% - 87px);
   padding: 20px;
   background: #68CCFF;
@@ -266,7 +272,7 @@ body {
   margin: 8px 0 0 0;
   padding: 7px;
   border-radius: 5px;
-  color: #00A7FF;
+  color: #23b2ff;
   transition: ease 100ms;
 }
 .content .projects .project .sites a:hover {
@@ -295,7 +301,7 @@ body {
   align-items: center;
   padding: 7px;
   border-radius: 5px;
-  color: #00A7FF;
+  color: #23b2ff;
   transition: ease 100ms;
 }
 .content .projects .more-projects a i {
@@ -318,7 +324,7 @@ body {
   justify-content: center;
   align-items: center;
   background: #004472;
-  color: #00A7FF;
+  color: #23b2ff;
   font-size: 22px;
   text-align: center;
   min-width: 280px;
@@ -340,6 +346,7 @@ body {
 .content .skills .tech .list div i, .content .skills .personal .list div i {
   display: inline-block;
   text-align: center;
+  min-width: 30px;
   width: 30px;
   font-size: 25px;
   margin: 0 8px 0 0;
@@ -368,7 +375,7 @@ body {
   padding: 20px;
   width: 33.3333333333%;
   text-align: center;
-  color: #00A7FF;
+  color: #23b2ff;
   background: #004472;
 }
 .content .network .links a:nth-of-type(2n) {
@@ -422,6 +429,7 @@ body {
   .content .about-me .profile {
     grid-template-areas: "photo" "bio" "cv";
     grid-template-rows: 350px auto 57px;
+    grid-template-columns: 350px;
   }
   .content .about-me .profile .photo {
     width: 350px;
@@ -432,6 +440,7 @@ body {
   .content .projects .project {
     grid-template-areas: "image" "content" "sites";
     grid-template-rows: 196.875px;
+    grid-template-columns: 350px;
   }
   .content .projects .project .photo, .content .projects .project .info {
     width: 350px;

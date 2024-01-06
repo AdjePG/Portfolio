@@ -19,29 +19,31 @@
             "text": "Crear, programar y diseñar son varias de las cosas que hace que la programación y el mundo en general de las tecnologías me parezcan muy interesantes. Hace muy poco que empecé a programar, y hoy en día he adquirido muchos conocimientos de este mundo. Aún así, sé que me queda mucho por aprender.<br/><br/>Como hobbies, aparte de la programación, me gusta mucho ver series, escuchar música de muchísimos estilos y también jugar a videojuegos.",
             "cv": "¡Descarga mi CV aquí!"
         },
-        "projects": {
-            "main-title": "Proyectos",
-            "project-1": "Portfolio",
-            "description-1": "Portfolio",
-            "project-2": "Blog con panel de admin",
-            "description-2": "Blog con panel de admin",
-            "site-1": "Repositorio de Github",
-            "site-2": "Sitio web oficial",
-            "more": "¡Mira otros proyectos en mi GitHub!"
-        },
         "skills": {
             "main-title": "Habilidades",
-            "tech-title": "Lenguajes de programación y tecnologías",
+            "tech-title": "Lenguajes de programación y tecnologías conocidas",
             "tech-1": "Android Studio - Java",
-            "tech-2": "Angular - HTML, CSS y TypeScript",
+            "tech-2": "Web - Angular, React (Typescript) y Django",
             "tech-3": "Bases de datos - SQL y MySQL",
-            "tech-4": "Otros - PHP, C# y VB.NET",
+            "tech-4": "SAP B1 - VB.NET y C#",
+            "tech-5": "Otros - PHP y Python",
             "personal-title": "Aptitudes personales",
             "personal-1": "Fácil y rápido aprendizaje de lenguajes de programación",
             "personal-2": "Creativo y original",
             "personal-3": "Resolutivo",
-            "personal-4": "Multilingüe",
-            "personal-5": "Trabajo en equipo y buena relación con los compañeros"
+            "personal-4": "Trabajo en equipo y buena relación con los compañeros"
+        },
+        "projects": {
+            "main-title": "Proyectos",
+            "project-1": "Portfolio",
+            "description-1": "Este portfolio sobre mí, mis habilidades y proyectos es una pequeña demostración de lo que puedo llegar a hacer relacionado con la programación web.<br/><br/>Esta página utiliza HTML5 para la estructura, SASS para poder hacer un diseño atractivo del contenido y también para hacerlo 'responsive' (para poder verlo bien en cualquier dispositivo), y por último, JavaScript para las traducciones en español, catalán e inglés, principalmente.",
+            "project-2": "Notify",
+            "description-2": "Esta aplicación se trata de una página web la cual puedes escribir notas y organizarlas a tu manera.<br/><br/>El proyecto está dividido en dos partes: La parte de 'front-end' está hecha con React con TypeScript y la parte de 'back-end' está hecha con Django (esta última gestiona las peticiones para la base de datos MySQL).<br/><br/>Actualmente está en desarrollo.",
+            "project-3": "Song Mediaplayer",
+            "description-3": "Se trata de una simple aplicación de Android que sirve para escuchar música o ver videoclips preseleccionados.<br/><br/>El código está hecho en java y lo que hace es mostrar una lista dinámica y personalizada de los temas, y reproduce el audio o video que se haya seleccionado.<br/><br/>Se puede aprovechar este proyecto para hacer mejoras, como por ejemplo coger canciones de alguna fuente en internet en vez de estar descargadas.",
+            "site-1": "Repositorio de Github",
+            "site-2": "Sitio web oficial",
+            "more": "¡Mira otros proyectos en mi GitHub!"
         },
         "network": {
             "main-title": "Redes"
