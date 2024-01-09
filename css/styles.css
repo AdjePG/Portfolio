@@ -242,6 +242,7 @@ body {
 }
 .content .projects .project .info {
   grid-area: content;
+  overflow: hidden;
 }
 .content .projects .project .info .title {
   padding: 10px;
@@ -256,6 +257,7 @@ body {
   padding: 20px;
   background: #68CCFF;
   color: #004472;
+  overflow: hidden;
 }
 .content .projects .project .sites {
   grid-area: sites;

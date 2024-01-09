@@ -6,10 +6,10 @@ const languages = languageSelection.getElementsByTagName("li")
 const textElements = document.querySelectorAll("[data-section]")
 
 document.body.onload = () => {
-    const language = localStorage.getItem('language').toUpperCase();
-    languageSelected.innerHTML = language;
-    linkCVLanguage.href = `../assets/docs/Curriculum-${language}.pdf`;
-    fetch(`../languages/${language}.json`).then(json => json.json()).then(json => changeLanguage(json));
+    const language = localStorage.getItem('language');
+    languageSelected.innerHTML = language.toUpperCase();
+    linkCVLanguage.href = `assets/docs/Curriculum-${language.toUpperCase()}.pdf`;
+    fetch(`languages/${language}.json`).then(json => json.json()).then(json => changeLanguage(json));
 }
 
 document.addEventListener('click', (event) => {
@@ -26,11 +26,11 @@ document.addEventListener('click', (event) => {
 
 for (const language of languages) {
     let data;
-    fetch(`../languages/${language.id}.json`).then(json => json.json()).then(json => data = json);
+    fetch(`languages/${language.id}.json`).then(json => json.json()).then(json => data = json);
     language.addEventListener('click', (event) => {
         localStorage.setItem('language', language.id);
         languageSelected.innerHTML = language.id.toUpperCase();
-        linkCVLanguage.href = `../assets/docs/Curriculum-${language.id.toUpperCase()}.pdf`;
+        linkCVLanguage.href = `assets/docs/Curriculum-${language.id.toUpperCase()}.pdf`;
         changeLanguage(data);
     });
 }
