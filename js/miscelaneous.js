@@ -1,3 +1,3 @@
 const copyright = document.getElementById("copyright");
 
-copyright.innerHTML = `Copyright ${new Date().getFullYear()}`
+copyright.innerHTML = `Adrià Pulido González ${new Date().getFullYear()}`
