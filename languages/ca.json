@@ -1,6 +1,6 @@
 {
     "navBar": {
-        "title": "Desenvolupador de Software",
+        "title": "Desenvolupador de software",
         "items": {
             "about": "Sobre mí",
             "projects": "Projectes",
@@ -16,31 +16,30 @@
     "content": {
         "about": {
             "main-title": "Sobre mí",
-            "text": "Crear, programar i dissenyar son varies de les coses que fa que la programació i el món en general de les tecnologies em semblin molt interessants. Fa molt poc que vaig començar a programar, i a día d’avui he adquirit molts coneixements d’aquest món. Tot i així, sé que em queda molt per aprendre.<br/><br/>Com a hobbies, apart de la programació, m’agrada molt veure series, escoltar música de moltíssims estils i també jugar a videojocs.",
-            "cv": "Descarrega el meu CV aquí!" 
+            "text": "Crear, programar i dissenyar són varies de les coses que fan que la programació i el món en general de les tecnologies em semblin molt interessants. M'agrada fer projectes pel meu compte, aprendre i millorar les meves habilitats de programació i estar al dia de les novetats relacionades amb el meu sector.<br/><br/>Estic preparat per afrontar qualsevol repte.",
+            "cv": "Descarrega el meu CV aquí!"
         },
         "skills": {
             "main-title": "Habilitats",
-            "tech-title": "Llenguatges de programació i tecnologies coneguts",
-            "tech-1": "Android Studio - Java",
-            "tech-2": "Web - HTML, CSS, Javascript/Typescript, React (NextJS), Angular i Django",
-            "tech-3": "Bases de dades - SQL i MySQL",
-            "tech-4": "SAP B1 - VB.NET i C#",
-            "tech-5": "Altres - PHP i Python",
+            "tech-title": "Llenguatges de programació i tecnologies",
+            "tech-1": "Frontend - HTML, CSS, Javascript/Typescript, React (NextJS) i Angular",
+            "tech-2": "Backend - NodeJS, Django i Spring boot",
+            "tech-3": "Bases de dades - MSSQL, MySQL i SAP Hana",
+            "tech-4": "SAP Business One - VB.NET i C#",
+            "tech-5": "Altres - Python, Java i PHP",
             "personal-title": "Aptituts personals",
-            "personal-1": "Fàcil i ràpid aprenentatge dels llenguatges de programació",
-            "personal-2": "Creatiu i original",
-            "personal-3": "Resolutiu",
-            "personal-4": "Treball en equip i bona relació amb els companys"
+            "personal-1": "Ràpid aprenentatge dels llenguatges de programació",
+            "personal-2": "Creatiu, original i resolutiu",
+            "personal-3": "Treball en equip i bona relació amb els companys"
         },
         "projects": {
             "main-title": "Projectes",
-            "project-1": "Entertaining Media",
-            "description-1": "Entertaining Media és un lloc web on pots cercar tot tipus de continguts per veure, llegir o jugar. El seu eslògan és \"Quina és la teva pròxima cosa per combatre l'avorriment?\", perquè aquí pots trobar tot el que necessites per entretenir-te de diferents maneres. Tots els continguts mostrats en aquesta pàgina es recuperen de diferents APIs, com ara TMDB (per a pel·lícules), IGDB (per a jocs) i Google Books API.<br/><br/>Tot el projecte està fet amb l'última versió actual de NextJS (v.14) pel enrutament i la renderització del costat del servidor en la majoria dels components de React.",
-            "project-2": "Notify",
-            "description-2": "Aquesta aplicació es tracta d'una pàgina web en la qual pots escriure notes i organitzar-les a la teva manera.<br/><br/>El projecte està dividit en dues parts: La part de 'front-end' està feta amb React amb TypeScript i la part de 'back-end' està feta amb Django (aquesta última gestiona les peticions per a la base de dades MySQL).",
-            "project-3": "Song Mediaplayer",
-            "description-3": "Es tracta d'una aplicació senzilla d'Android que serveix per escoltar música o veure videoclips preseleccionats.<br/><br/>El codi està fet en Java i el que fa és mostrar una llista dinàmica i personalitzada de les cançons, i reproduir l'àudio o vídeo que s'hagi seleccionat.<br/><br/>Es pot aprofitar aquest projecte per fer millores, com ara agafar cançons d'alguna font a l'Internet en comptes d'estar descarregades.",
+            "project-1": "GPT-Assistant",
+            "description-1": "GPT-Assistant és un lloc web amb un assistent intel·ligent senzill que t'ajuda a traduir paraules o frases en diferents idiomes i genera receptes depenent del que escriguis al quadre de text. Aquest assistent és bàsic però qualsevol desenvolupador pot afegir una tasca o utilitat en aquest projecte.<br/><br/>El projecte està dividit en dues parts principals, que són el costat del servidor i el costat del client. Utilitzo React amb react router, NodeJS (específicament ExpressJS) i l'API d'OpenAI per a la generació de text i imatges.",
+            "project-2": "Entertaining Media",
+            "description-2": "Entertaining Media és un lloc web on pots cercar tot tipus de continguts per veure, llegir o jugar. El seu eslògan és \"Quina és la teva pròxima cosa per combatre l'avorriment?\", perquè aquí pots trobar tot el que necessites per entretenir-te de diferents maneres. Tots els continguts mostrats en aquesta pàgina es recuperen de diferents APIs, com ara TMDB (per a pel·lícules), IGDB (per a jocs) i Google Books API.<br/><br/>Tot el projecte està fet amb l'última versió actual de NextJS (v.14) pel enrutament i la renderització del costat del servidor en la majoria dels components de React.",
+            "project-3": "Notify",
+            "description-3": "Aquesta aplicació es tracta d'una pàgina web en la qual pots escriure notes i organitzar-les a la teva manera.<br/><br/>El projecte està dividit en dues parts: La part de 'front-end' està feta amb React amb TypeScript i la part de 'back-end' està feta amb Django (aquesta última gestiona les peticions per a la base de dades MySQL).",
             "site-1": "Repositori de Github",
             "site-2": "Lloc web oficial",
             "more": "Mira altres projectes al meu GitHub!"

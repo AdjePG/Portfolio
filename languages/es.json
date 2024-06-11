@@ -1,6 +1,6 @@
 {
     "navBar": {
-        "title": "Desarrollador de Software",
+        "title": "Desarrollador de software",
         "items": {
             "about": "Sobre mí",
             "projects": "Proyectos",
@@ -16,31 +16,30 @@
     "content": {
         "about": {
             "main-title": "Sobre mí",
-            "text": "Crear, programar y diseñar son varias de las cosas que hace que la programación y el mundo en general de las tecnologías me parezcan muy interesantes. Hace muy poco que empecé a programar, y hoy en día he adquirido muchos conocimientos de este mundo. Aún así, sé que me queda mucho por aprender.<br/><br/>Como hobbies, aparte de la programación, me gusta mucho ver series, escuchar música de muchísimos estilos y también jugar a videojuegos.",
+            "text": "Crear, programar y diseñar son varias de las cosas que hace que la programación y el mundo en general de las tecnologías me parezcan muy interesantes. Me gusta hacer proyectos por mi cuenta, aprender y mejorar mis habilidades de programación y estar al día de las novedades relacionadas a mi sector.<br/><br/>Estoy preparado para afrontar cualquier reto.",
             "cv": "¡Descarga mi CV aquí!"
         },
         "skills": {
             "main-title": "Habilidades",
-            "tech-title": "Lenguajes de programación y tecnologías conocidas",
-            "tech-1": "Android Studio - Java",
-            "tech-2": "Web - HTML, CSS, Javascript/Typescript, React (NextJS), Angular y Django",
-            "tech-3": "Bases de datos - SQL y MySQL",
-            "tech-4": "SAP B1 - VB.NET y C#",
-            "tech-5": "Otros - PHP y Python",
+            "tech-title": "Lenguajes de programación y tecnologías",
+            "tech-1": "Frontend - HTML, CSS, Javascript/Typescript, React (NextJS) y Angular",
+            "tech-2": "Backend - NodeJS, Django y Spring boot",
+            "tech-3": "Bases de datos - MSSQL, MySQL y SAP Hana",
+            "tech-4": "SAP Business One - VB.NET y C#",
+            "tech-5": "Otros - Python, Java y PHP",
             "personal-title": "Aptitudes personales",
-            "personal-1": "Fácil y rápido aprendizaje de lenguajes de programación",
-            "personal-2": "Creativo y original",
-            "personal-3": "Resolutivo",
-            "personal-4": "Trabajo en equipo y buena relación con los compañeros"
+            "personal-1": "Rápido aprendizaje de lenguajes de programación",
+            "personal-2": "Creativo, original y resolutivo",
+            "personal-3": "Trabajo en equipo y buena relación con los compañeros"
         },
         "projects": {
             "main-title": "Proyectos",
-            "project-1": "Entertaining Media",
-            "description-1": "Entertaining Media es un sitio web donde puedes buscar todo tipo de contenidos para ver, leer o jugar. Su eslogan es \"¿Cuál es tu próxima cosa para combatir el aburrimiento?\", porque aquí puedes encontrar todo para entretenerte de diferentes maneras. Todos los contenidos mostrados en esta página se obtienen de diferentes APIs, como TMDB (para películas), IGDB (para juegos) y Google Books API.<br/><br/>Todo el proyecto está hecho con la última versión actual de NextJS (v.14) para el enrutamiento y la renderización del lado del servidor en la mayoría de los componentes de React.",
-            "project-2": "Notify",
-            "description-2": "Esta aplicación se trata de una página web la cual puedes escribir notas y organizarlas a tu manera.<br/><br/>El proyecto está dividido en dos partes: La parte de 'front-end' está hecha con React con TypeScript y la parte de 'back-end' está hecha con Django (esta última gestiona las peticiones para la base de datos MySQL).",
-            "project-3": "Song Mediaplayer",
-            "description-3": "Se trata de una simple aplicación de Android que sirve para escuchar música o ver videoclips preseleccionados.<br/><br/>El código está hecho en java y lo que hace es mostrar una lista dinámica y personalizada de los temas, y reproduce el audio o video que se haya seleccionado.<br/><br/>Se puede aprovechar este proyecto para hacer mejoras, como por ejemplo coger canciones de alguna fuente en internet en vez de estar descargadas.",
+            "project-1": "GPT-Assistant",
+            "description-1": "GPT-Assistant es un sitio web con un asistente inteligente simple que te ayuda a traducir palabras o frases en diferentes idiomas y genera recetas dependiendo de lo que escribas en el cuadro de texto. Este asistente es básico pero cualquier desarrollador puede agregar una tarea o utilidad en este proyecto.<br/><br/>El proyecto está dividido en dos partes principales, que son el lado del servidor y el lado del cliente. Utilizo React con react router, NodeJS (específicamente ExpressJS) y la API de OpenAI para la generación de texto e imágenes.",
+            "project-2": "Entertaining Media",
+            "description-2": "Entertaining Media es un sitio web donde puedes buscar todo tipo de contenidos para ver, leer o jugar. Su eslogan es \"¿Cuál es tu próxima cosa para combatir el aburrimiento?\", porque aquí puedes encontrar todo para entretenerte de diferentes maneras. Todos los contenidos mostrados en esta página se obtienen de diferentes APIs, como TMDB (para películas), IGDB (para juegos) y Google Books API.<br/><br/>Todo el proyecto está hecho con la última versión actual de NextJS (v.14) para el enrutamiento y la renderización del lado del servidor en la mayoría de los componentes de React.",
+            "project-3": "Notify",
+            "description-3": "Esta aplicación se trata de una página web la cual puedes escribir notas y organizarlas a tu manera.<br/><br/>El proyecto está dividido en dos partes: La parte de 'front-end' está hecha con React con TypeScript y la parte de 'back-end' está hecha con Django (esta última gestiona las peticiones para la base de datos MySQL).",
             "site-1": "Repositorio de Github",
             "site-2": "Sitio web oficial",
             "more": "¡Mira otros proyectos en mi GitHub!"
