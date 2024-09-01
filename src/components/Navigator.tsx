@@ -56,8 +56,13 @@ export default function Navigator ({language, translations} : Props) {
     const [itemHovering, setItemHovering] = useState<string | null>(null)
     const [currentPath] = useState<string>(window.location.pathname);
 
-    const getUrl = (language : string, navLink : string) => {
-        let url = import.meta.env.BASE_URL
+    const getUrl = (language : string, navLink : string, removePrefix?: boolean) => {
+        let url : string = ''
+        
+        if (!removePrefix) {
+            url += import.meta.env.BASE_URL
+        }
+
         url += getRelativeLocaleUrl(language, navLink)
         
         return url
@@ -73,7 +78,7 @@ export default function Navigator ({language, translations} : Props) {
                         className="flex flex-col justify-center rounded-xl box-border transition-colors ease duration-200 hover:bg-[#ffffff54] select-none"
                     >
                         <a 
-                            href={getUrl(language, item.href)}
+                            href={getUrl(language, item.href, true)}
                             onMouseEnter={() => setItemHovering(getUrl(language, item.href))}
                             onMouseLeave={() => setItemHovering(null)}
                             className="p-3 w-140 md:h-24 text-sm text-center content-center"
