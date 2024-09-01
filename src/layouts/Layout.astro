@@ -1,0 +1,111 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+import Header from '@/components/Header.astro';
+import '@fontsource-variable/jost';
+import type { Translations } from '@/others/types';
+
+interface Props {
+	title: string;
+	language: string;
+	translations: Translations
+}
+
+const { title, language, translations } = Astro.props;
+---
+
+<!doctype html>
+<html lang={language}>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<ViewTransitions />
+	</head>
+	<body>
+		<Header language={language} translations={translations} />
+		<main class="custom-scrollbar flex flex-col flex-start items-center dark:text-white p-4 mx-auto border-box w-full opacity-0">
+			<div class="my-auto w-full max-w-[1100px]">
+				<slot />
+			</div>
+		</main>
+	</body>
+</html>
+
+<style is:global>
+	body {
+		background: light-dark(#f3f7ff,#20395f);
+		color-scheme: light dark;
+		display: grid;
+		font-family: 'Jost Variable', system-ui, sans-serif;
+		grid-template-areas: 
+			"header content";
+		grid-template-columns: 250px auto;
+		grid-template-rows: 1fr;
+		height: 100dvh;
+		margin: 0;
+		min-width: 350px;
+		overflow: hidden;
+	}
+
+	main {
+		animation: fade-in .5s ease .3s forwards;
+		grid-area: content;
+
+		&.custom-scrollbar {
+			overflow-y: auto;
+			overflow-x: hidden;
+			scrollbar-color: #cbe0ff #00000000;
+			scrollbar-width: thin;
+			scrollbar-gutter: stable;
+		}
+	}
+
+	img {
+		user-select: none;
+	}
+
+	@media (max-width: 767px) {
+		body {
+			grid-template-areas: 
+				'content'
+				'header';
+			grid-template-columns: 1fr;
+			grid-template-rows: auto 64px;
+		}
+	}
+
+	@media (prefers-color-scheme: dark) {
+		main {
+			&.custom-scrollbar {
+				scrollbar-color: #010b1a #00000000;
+			}
+		}
+	}
+
+	@media (max-width: 539px) {
+		body {
+			grid-template-rows: auto 104px;
+		}
+	}
+
+	@keyframes fade-in {
+		0% {
+			transform: translateY(100px);
+		}
+
+		100% {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	@keyframes rotate {
+		100% {
+			opacity: 1;
+			transform: rotate(-12deg);
+		}
+	}
+</style>

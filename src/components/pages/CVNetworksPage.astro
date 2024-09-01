@@ -1,0 +1,44 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import GithubIcon from '@/icons/GithubIcon.astro';
+import LinkedinIcon from '@/icons/LinkedinIcon.astro';
+import MailIcon from '@/icons/MailIcon';
+import DocumentIcon from '@/icons/DocumentIcon';
+import { getTranslations } from '@/i18n/useTranslate';
+import ExternalLink from '@/components/ExternalLink.astro';
+
+interface Props {
+    cv_link: string
+}
+
+const { cv_link } = Astro.props
+const { currentLocale } = Astro
+const language = currentLocale || 'es'
+const translations = getTranslations(language)
+---
+
+<Layout 
+    title={translations["cv-networks.page-title"] as string}
+    language={language}
+    translations={translations}
+>
+    <a href={cv_link} target="_blank" class="block w-fit mx-auto text-center transition-transform ease duration-200 hover:scale-105 cursor-pointer">
+        <DocumentIcon className='md-lg:w-48 md-lg:h-48 w-36 h-36 mx-auto' filled/>
+        <p class="uppercase font-semibold text-3xl md-lg:text-4xl">{translations["cv-networks.download-cv"]}</p>
+    </a>
+
+    <p class="uppercase font-semibold text-xl md-lg:text-2xl mt-10 text-center">{translations["cv-networks.links-title"]}</p>
+    <div class="flex flex-wrap w-full justify-center gap-1 mt-5">
+        <ExternalLink href='https://github.com/AdjePG' name='AdjePG'>
+            <GithubIcon class='w-6 h-6 mr-2 inline-block'/>
+        </ExternalLink>
+
+        <ExternalLink href='https://www.linkedin.com/in/adriapulido/' name='Adrià Pulido'>
+            <LinkedinIcon class='w-6 h-6 mr-2 inline-block'/>
+        </ExternalLink>
+
+        <ExternalLink href='mailto:adripuli2002@gmail.com' name='adripuli2002@gmail.com'>
+            <MailIcon className='w-6 h-6 mr-2 inline-block' filled/>
+        </ExternalLink>
+    </div>
+</Layout>

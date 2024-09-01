@@ -1,0 +1,17 @@
+---
+import { getTranslations } from '@/i18n/useTranslate';
+import Layout from '@/layouts/Layout.astro';
+
+const { currentLocale } = Astro
+const language = currentLocale || 'es'
+const translations = getTranslations(language)
+---
+
+<Layout 
+	title={translations["home.page-title"] as string}
+	language={language}
+    translations={translations}
+>
+	<p class="text-2xl xs:text-4xl md-lg:text-5xl font-semibold text-center uppercase">{translations["home.welcome"]}</p>
+	<p class="text-7xl xs:text-9xl mt-6 xs:mt-14 text-center">👋</p>
+</Layout>

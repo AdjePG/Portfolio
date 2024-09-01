@@ -1,0 +1,25 @@
+---
+import WorkExperienceArticle from '@/components/WorkExperienceArticle.astro';
+import { getTranslations } from '@/i18n/useTranslate';
+import Layout from '@/layouts/Layout.astro';
+
+const { currentLocale } = Astro
+const language = currentLocale || 'es'
+const translations = getTranslations(language)
+---
+
+<Layout 
+    title={translations["work-experience.page-title"] as string}
+    language={language}
+    translations={translations}
+>
+    <WorkExperienceArticle 
+        img="/src/assets/logos/seidor_logo.png"
+        company={translations["work-experience.seidor"] as string}
+        role={translations["work-experience.seidor.role"] as string}
+        period={translations["work-experience.seidor.period"] as string}
+        tasks={translations["work-experience.seidor.tasks"] as string[]}
+        training={translations["work-experience.seidor.training"] as string}
+        className="w-full"
+    />
+</Layout>

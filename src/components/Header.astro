@@ -1,0 +1,76 @@
+---
+import Navigator from "@/components/Navigator";
+import type { Translations } from "@/others/types";
+
+interface Props {
+    language : string
+    translations : Translations
+}
+
+const { language, translations } = Astro.props
+---
+
+<header class="custom-scrollbar header bg-[#cbe0ff] dark:bg-[#010b1a] dark:text-white flex flex-col xs:flex-row md:flex-col items-center justify-center md:justify-between px-5 md:py-8 gap-2 h-full z-[2]">
+    <div class="md:block hidden font-semibold uppercase select-none">
+        <h1 class="text-2xl">
+            Adrià<br>
+            Pulido<br>
+            González
+        </h1>
+        <h2 class="text-sm mt-5">Software developer</h2>
+    </div>
+    
+    <Navigator language={language} translations={translations} client:only />
+
+    <div class="h-[52px] min-w-1 bg-[#f3f7ff] dark:bg-[#20395f] hidden xs:block md:hidden"></div>
+
+    <ul class="flex justify-between w-36 md:w-full px-2">
+        <li>
+            <a href="/">
+                <img 
+                    src="/src/assets/flags/es_flag.png" 
+                    alt="Spanish Flag"
+                    class="w-8 transition-transform ease duration-200 hover:scale-125 cursor-pointer"
+                />
+            </a>
+        </li>
+        <li>
+            <a href="/ca">
+                <img 
+                    src="/src/assets/flags/ca_flag.png"
+                    alt="Catalan Flag"
+                    class="w-8 transition-transform ease duration-200 hover:scale-125 cursor-pointer"
+                />
+            </a>
+        </li>
+        <li>
+            <a href="/en">
+                <img 
+                    src="/src/assets/flags/en_flag.png" 
+                    alt="English Flag"
+                    class="w-8 transition-transform ease duration-200 hover:scale-125 cursor-pointer"
+                />
+            </a>
+        </li>
+    </ul>
+</header>
+
+<style>
+    .header {
+		grid-area: header;
+	}
+    
+    .custom-scrollbar {
+        overflow-y: auto;
+        overflow-y: auto;
+        scrollbar-color: #f3f7ff #00000000;
+        scrollbar-width: thin;
+        scrollbar-gutter: stable;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .custom-scrollbar {
+            scrollbar-color: #20395f #00000000;
+        }
+	}
+</style>

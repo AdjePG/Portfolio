@@ -1,0 +1,50 @@
+---
+import SkillsIcon from "@/icons/SkillsIcon";
+
+interface Props {
+    img : string
+    project : string
+    description : string
+    skills : string[]
+    className? : string
+}
+
+const { img, project, description, skills, className } = Astro.props
+---
+
+<article class={className}>
+    <div class="relative mx-auto mt-7 lg:ml-7 min-w-[256px] min-h-[144px] max-w-[256px] max-h-[144px]">
+        <div class="back-img absolute inset-0 origin-center bg-[#cbe0ff] dark:bg-[#010b1a]"></div>
+        <img src={img} alt=`${project} logo` class="relative z-1">
+    </div>
+    <div>
+        <h3 class="title text-3xl uppercase font-semibold text-center">{project}</h3>
+        <hr class="my-5 border-2 border-[#cbe0ff] dark:border-[#010b1a]"/>
+        <p class="mt-5" set:html={description}></p>
+        <p class="mt-5">
+            <SkillsIcon className='w-6 h-6 mr-2 inline-block' filled/>
+            {
+                skills.map((item, index, array) => (
+                    <>
+                        {item}
+                        {index < array.length - 1 && <span class="dot"/>}
+                    </>
+                ))
+            }
+        </p>
+        <div class="mt-5 flex gap-1 flex-wrap justify-center lg:justify-normal">
+            <slot />
+        </div>
+    </div>
+</article>
+
+<style>
+    .back-img {
+        animation: rotate .5s ease .4s forwards;
+    }
+
+    .dot::before {
+        content: ' · ';
+        font-weight: 800;
+    }
+</style>

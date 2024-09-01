@@ -1,0 +1,33 @@
+---
+import { getTranslations } from '@/i18n/useTranslate';
+import Layout from '@/layouts/Layout.astro';
+
+const { currentLocale } = Astro
+const language = currentLocale || 'es'
+const translations = getTranslations(language)
+---
+
+<Layout 
+    title={translations["about-me.page-title"] as string}
+    language={language}
+    translations={translations}
+>
+    <article class="flex flex-col lg:flex-row gap-12 align-middle">
+        <div class="relative lg:ml-7 min-w-[250px] min-h-[250px] max-w-[250px] max-h-[250px] lg:my-auto mx-auto mt-7">
+            <div class="back-img absolute inset-0 bg-[#cbe0ff] dark:bg-[#010b1a]"></div>
+            <img src="/src/assets/me.png" alt="Adrià Pulido González photo" class="relative z-1">
+        </div>
+        <div class="content-center">
+            <h3 class="text-4xl uppercase font-semibold text-center">{translations["about-me.title"]}</h3>
+            <h4 class="mt-2 text-xl uppercase font-semibold text-center">{translations["about-me.subtitle"]}</h4>
+            <hr class="my-5 border-2 border-[#cbe0ff] dark:border-[#010b1a]"/>
+            <p class="mt-5" set:html={translations["about-me.biography"]}></p>
+        </div>
+    </article>
+</Layout>
+
+<style>
+    .back-img {
+		animation: rotate .5s ease .4s forwards;
+    }
+</style>

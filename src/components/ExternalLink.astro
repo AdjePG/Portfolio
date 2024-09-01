@@ -1,0 +1,14 @@
+---
+interface Props {
+    href: string,
+    name: string,
+}
+
+const {href, name} = Astro.props
+
+---
+
+<a href={href} target="_blank" class="rounded-xl transition-colors ease duration-200 p-3 inline-block bg-[#cbe0ff] dark:bg-[#010b1a] hover:bg-[#DCEAFF] dark:hover:bg-[#4E555F] select-none"
+>
+    <span class="flex"><slot/>{name}</span>
+</a>

@@ -1,0 +1,97 @@
+---
+import { getTranslations } from '@/i18n/useTranslate';
+import Layout from '@/layouts/Layout.astro';
+
+const { currentLocale } = Astro
+const language = currentLocale || 'es'
+const translations = getTranslations(language)
+---
+
+<Layout 
+    title={translations["skills.page-title"] as string}
+    language={language}
+    translations={translations}
+>
+    <section>
+        <header class="col-span-2">
+            <h3 class="text-3xl uppercase font-semibold text-center">{translations["skills.technical-skills"]}</h3>
+            <hr class="my-5 border-2 border-[#cbe0ff] dark:border-[#010b1a]"/>
+        </header>
+
+        <div class="flex flex-col lg:grid lg:grid-cols-2 technical-grid gap-5">
+            <div>
+                <h4 class="text-xl uppercase font-semibold">{translations["skills.technical-skills.frontend-1-title"]}</h4>
+                <p>{translations["skills.technical-skills.frontend-1-description"]}</p>
+            </div>
+    
+            <div>
+                <h4 class="text-xl uppercase font-semibold">{translations["skills.technical-skills.frontend-2-title"]}</h4>
+                <p>{translations["skills.technical-skills.frontend-2-description"]}</p>
+            </div>
+    
+            <div>
+                <h4 class="text-xl uppercase font-semibold">{translations["skills.technical-skills.backend-title"]}</h4>
+                <p>{translations["skills.technical-skills.backend-description"]}</p>
+            </div>
+    
+            <div>
+                <h4 class="text-xl uppercase font-semibold">{translations["skills.technical-skills.dbs-title"]}</h4>
+                <p>{translations["skills.technical-skills.dbs-description"]}</p>
+            </div>
+    
+            <div>
+                <h4 class="text-xl uppercase font-semibold">{translations["skills.technical-skills.net-title"]}</h4>
+                <p>{translations["skills.technical-skills.net-description"]}</p>
+            </div>
+    
+            <div>
+                <h4 class="text-xl uppercase font-semibold">{translations["skills.technical-skills.erps-title"]}</h4>
+                <p>{translations["skills.technical-skills.erps-description"]}</p>
+            </div>
+    
+            <div>
+                <h4 class="text-xl uppercase font-semibold">{translations["skills.technical-skills.python-title"]}</h4>
+                <p>{translations["skills.technical-skills.python-description"]}</p>
+            </div>
+            
+            <div>
+                <h4 class="text-xl uppercase font-semibold">{translations["skills.technical-skills.others-title"]}</h4>
+                <p>{translations["skills.technical-skills.others-description"]}</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-10">
+        <h3 class="title text-3xl uppercase font-semibold text-center">{translations["skills.personal-skills"]}</h3>
+        <hr class="my-5 border-2 border-[#cbe0ff] dark:border-[#010b1a]"/>
+
+        <ul class="list-disc ml-5">
+            {
+                (translations["skills.personal-skills.items"] as string[]).map(item => (
+                    <li set:html={item}></li>
+                ))
+            }
+        </ul>
+    </section>
+</Layout>
+
+<style>
+    .image {
+        grid-area: image;
+    }
+    .title {
+        grid-area: title;
+    }
+    .desc {
+        grid-area: desc;
+    }
+    .technical-skill {
+        display: grid;
+        grid-template-areas: 
+            "image title"
+            "image desc"
+        ;
+        grid-template-columns: 100px auto;
+        grid-template-rows: auto 25px;
+    }
+</style>
