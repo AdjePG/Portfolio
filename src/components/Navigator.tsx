@@ -56,18 +56,6 @@ export default function Navigator ({language, translations} : Props) {
     const [itemHovering, setItemHovering] = useState<string | null>(null)
     const [currentPath] = useState<string>(window.location.pathname);
 
-    const getUrl = (language : string, navLink : string, removePrefix?: boolean) => {
-        let url : string = ''
-        
-        if (!removePrefix) {
-            url += import.meta.env.BASE_URL
-        }
-
-        url += getRelativeLocaleUrl(language, navLink)
-        
-        return url
-    }
-
     return (
         <nav>
             <ul className="list-none m-0 p-0 flex flex-row md:grid md:grid-cols-2 md:h-md-lg:block">
@@ -78,14 +66,14 @@ export default function Navigator ({language, translations} : Props) {
                         className="flex flex-col justify-center rounded-xl box-border transition-colors ease duration-200 hover:bg-[#ffffff54] select-none"
                     >
                         <a 
-                            href={getUrl(language, item.href, true)}
-                            onMouseEnter={() => setItemHovering(getUrl(language, item.href))}
+                            href={getRelativeLocaleUrl(language, item.href)}
+                            onMouseEnter={() => setItemHovering(getRelativeLocaleUrl(language, item.href))}
                             onMouseLeave={() => setItemHovering(null)}
                             className="p-3 w-140 md:h-24 text-sm text-center content-center"
                         >
                             <item.Icon
-                                filled={itemHovering === getUrl(language, item.href) || currentPath === getUrl(language, item.href)}
-                                duotone={currentPath === getUrl(language, item.href) && itemHovering !== getUrl(language, item.href)}
+                                filled={itemHovering === getRelativeLocaleUrl(language, item.href) || currentPath === getRelativeLocaleUrl(language, item.href)}
+                                duotone={currentPath === getRelativeLocaleUrl(language, item.href) && itemHovering !== getRelativeLocaleUrl(language, item.href)}
                                 className="w-7 h-7 mx-auto" 
                             />
                             <p className="hidden md:inline-block">{translations[`nav.${item.id}`]}</p>
