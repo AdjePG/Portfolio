@@ -18,17 +18,17 @@ const translations = getTranslations(language)
     translations={translations}
 >
     <ProjectArticle 
-        img=`${import.meta.env.BASE_URL}assets/projects/gpt-assistant_project.png`
-        project={translations["projects.gpt-assistant"] as string}
-        description={translations["projects.gpt-assistant.description"] as string}
-        skills={translations["projects.gpt-assistant.skills"] as string[]}
+        img=`${import.meta.env.BASE_URL}assets/projects/aissistant_project.png`
+        project={translations["projects.aissistant"] as string}
+        description={translations["projects.aissistant.description"] as string}
+        skills={translations["projects.aissistant.skills"] as string[]}
         className="flex flex-col lg:flex-row gap-12"
     >
-        <ExternalLink href='https://github.com/AdjePG/GPT-Assistant' name={translations["projects.repository"] as string}>
+        <ExternalLink href='https://github.com/AdjePG/AIssistant' name={translations["projects.repository"] as string}>
             <GithubIcon class='w-6 h-6 mr-2 inline-block'/>
         </ExternalLink>
-        <ExternalLink href='https://github.com/AdjePG/GPT-Assistant/assets/107345217/fd8b321c-c87b-4b6c-80cf-36f727abed7c' name={translations["projects.video-preview"] as string}>
-            <VideoIcon className='w-6 h-6 mr-2 inline-block' filled/>
+        <ExternalLink href='https://agreeable-flower-0d0af9a03.5.azurestaticapps.net/translate' name={translations["projects.webpage"] as string}>
+            <WorldIcon className='w-6 h-6 mr-2 inline-block' filled/>
         </ExternalLink>
     </ProjectArticle>
 
@@ -44,6 +44,33 @@ const translations = getTranslations(language)
         </ExternalLink>
         <ExternalLink href='https://entertaining-media-sand.vercel.app/' name={translations["projects.webpage"] as string}>
             <WorldIcon className='w-6 h-6 mr-2 inline-block' filled/>
+        </ExternalLink>
+    </ProjectArticle>
+
+    <ProjectArticle 
+        img=`${import.meta.env.BASE_URL}assets/projects/gpt-assistant_project.png`
+        project={translations["projects.gpt-assistant"] as string}
+        description={translations["projects.gpt-assistant.description"] as string}
+        skills={translations["projects.gpt-assistant.skills"] as string[]}
+        className="flex flex-col lg:flex-row gap-12 mt-10"
+    >
+        <ExternalLink href='https://github.com/AdjePG/GPT-Assistant' name={translations["projects.repository"] as string}>
+            <GithubIcon class='w-6 h-6 mr-2 inline-block'/>
+        </ExternalLink>
+        <ExternalLink href='https://github.com/AdjePG/GPT-Assistant/assets/107345217/fd8b321c-c87b-4b6c-80cf-36f727abed7c' name={translations["projects.video-preview"] as string}>
+            <VideoIcon className='w-6 h-6 mr-2 inline-block' filled/>
+        </ExternalLink>
+    </ProjectArticle>
+
+    <ProjectArticle 
+        img=`${import.meta.env.BASE_URL}assets/projects/notify_project.png`
+        project={translations["projects.notify"] as string}
+        description={translations["projects.notify.description"] as string}
+        skills={translations["projects.notify.skills"] as string[]}
+        className="flex flex-col lg:flex-row gap-12 mt-10"
+    >
+        <ExternalLink href='https://github.com/AdjePG/Notify' name={translations["projects.repository"] as string}>
+            <GithubIcon class='w-6 h-6 mr-2 inline-block'/>
         </ExternalLink>
     </ProjectArticle>
 </Layout>

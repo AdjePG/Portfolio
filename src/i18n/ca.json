@@ -50,6 +50,25 @@
         "<span class=\"uppercase underline font-semibold\">Projecte final de CFGS:</span> Pàgina web basada en una xarxa social molt simplificada utilitzant <b>Angular</b> com a framework de front-end, <b>Node.js</b> amb <b>Express.js</b> per a l'API REST del back-end i <b>MongoDB</b>."
     ],
     "projects.page-title": "Projectes - Adrià Pulido González",
+    "projects.aissistant": "AIssistant",
+    "projects.aissistant.description": "AIssistant és un assistent virtual que implementa la intel·ligència artificial per realitzar diverses funcions. Aquesta aplicació web és una extensió del meu projecte anterior, GPT-Assistant, però està millor optimitzada, millor presentada i amb la intenció d'implementar més funcions útils per a la vida quotidiana de les persones en el futur.<br/><br/>Actualment, pots traduir textos a diversos idiomes, generar receptes de cuina i generar curiositats sobre un tema concret, a més d'una pregunta relacionada amb aquesta curiositat.<br/><br/>El projecte s'ha desenvolupat utilitzant <b>Next.js</b> per crear tant el front-end com el back-end. Per a la generació artificial de text, s'ha utilitzat <b>Gemini API</b>, mentre que per a la generació d'imatges es continua utilitzant <b>OpenAI API</b>.",
+    "projects.aissistant.skills": [
+        "HTML5",
+        "CSS3",
+        "TypeScript",
+        "React.js",
+        "Next.js",
+        "OpenAI API",
+        "Gemini API"
+    ],
+    "projects.entertaining-media": "Entertaining Media",
+    "projects.entertaining-media.description": "Entertaining Media és un lloc web on pots cercar tot tipus de continguts per veure, llegir o jugar. El seu eslògan és \"Quina és la teva pròxima cosa per lluitar contra l'avorriment?\", perquè aquí pots trobar de tot per entretenir-te de diferents maneres. Tots els continguts mostrats en aquesta pàgina es recuperen de diferents <b>APIs</b>, com TMDB (per a pel·lícules), IGDB (per a jocs) i Google Books API.<br/><br/>Aquest projecte web s'ha creat amb <b>Next.js</b> i <b>TypeScript</b>. Es fa servir principalment el <b>Server Side Rendering (SSR)</b> en la majoria de components i s'adapta a qualsevol dispositiu mitjançant <b>Responsive Design</b>.",
+    "projects.entertaining-media.skills": [
+        "HTML5",
+        "CSS3",
+        "TypeScript",
+        "Next.js"
+    ],
     "projects.gpt-assistant": "GPT-assistant",
     "projects.gpt-assistant.description": "Vaig programar i dissenyar una pàgina web que integra la intel·ligència artificial d'OpenAI. A GPT-Assistant hi ha dues pàgines de mostreig que demostren exemples d'aplicació de l'API d'OpenAI: una tradueix textos a un altre idioma, i l'altra genera receptes segons els ingredients especificats.<br/><br/>El projecte s'ha desenvolupat en dues parts: La part front-end s'ha fet amb <b>React</b> i amb <b>React-Router</b> i <b>TypeScript</b>. La part  back-end s'ha utilitzat <b>Node.js</b> i <b>Express.js</b> per, a partir de peticions, retornar respostes estructurades i evitar respostes inesperades.",
     "projects.gpt-assistant.skills": [
@@ -65,13 +84,19 @@
         "Vitest",
         "Testing Library"
     ],
-    "projects.entertaining-media": "Entertaining Media",
-    "projects.entertaining-media.description": "Entertaining Media és un lloc web on pots cercar tot tipus de continguts per veure, llegir o jugar. El seu eslògan és \"Quina és la teva pròxima cosa per lluitar contra l'avorriment?\", perquè aquí pots trobar de tot per entretenir-te de diferents maneres. Tots els continguts mostrats en aquesta pàgina es recuperen de diferents <b>APIs</b>, com TMDB (per a pel·lícules), IGDB (per a jocs) i Google Books API.<br/><br/>Aquest projecte web s'ha creat amb <b>Next.js</b> i <b>TypeScript</b>. Es fa servir principalment el <b>Server Side Rendering (SSR)</b> en la majoria de components i s'adapta a qualsevol dispositiu mitjançant <b>Responsive Design</b>.",
-    "projects.entertaining-media.skills": [
+    "projects.notify": "Notify",
+    "projects.notify.description": "El meu primer projecte web va ser 'Notify!', una aplicació basada en una TO-DO List per poder prendre apunts i organitzar-los a la teva manera. També té un sistema d'autenticació per poder desar les teves notes al teu usuari.<br/><br/>El projecte està dividit en dues parts: El front-end està fet amb <b>React</b> i <b>React Router</b>, i el back-end s'ha realitzat amb <b>Django REST Framework</b> per a les sol·licituds i <b>MySQL</b> per desar el contingut de cada usuari.",
+    "projects.notify.skills": [
         "HTML5",
-        "CSS3",
-        "TypeScript",
-        "Next.js"
+        "SCSS",
+        "JavaScript",
+        "React.js",
+        "React Router",
+        "Python",
+        "Django",
+        "REST Framework",
+        "MySQL",
+        "PWA"
     ],
     "projects.repository": "Repositori de Github",
     "projects.webpage": "Pàgina web oficial",
@@ -105,5 +130,6 @@
     ],
     "cv-networks.page-title": "CV i xarxes - Adrià Pulido González",
     "cv-networks.download-cv": "Descarrega el meu CV aquí!",
-    "cv-networks.links-title": "Les meves vies de contacte"
+    "cv-networks.links-title": "Les meves vies de contacte",
+    "not-found.message": "Aquesta pàgina era només un somni..."
 }

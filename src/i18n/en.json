@@ -50,6 +50,25 @@
         "<span class=\"uppercase underline font-semibold\">VT final project:</span> Web page based on a very simplified social network using <b>Angular</b> as a front-end framework, <b>Node.js</b> with <b>Express.js</b> for the API REST back-end and <b>MongoDB</b>."
     ],
     "projects.page-title": "Projects - Adrià Pulido González",
+    "projects.aissistant": "AIssistant",
+    "projects.aissistant.description": "AIssistant is a virtual assistant that implements artificial intelligence to perform various functions. This web app is an extension of my previous project, GPT-Assistant, but it's better optimized, better presented, and with the intention of gradually implementing more useful features for people's daily lives in the future.<br/><br/>Currently, you can translate texts into various languages, generate cooking recipes, and obtain curiosities about specific topics, along with a question related to that curiosity.<br/><br/>The project has been developed using <b>Next.js</b> to create both the front-end and back-end. For artificial text generation, <b>Gemini API</b> has been used, while <b>OpenAI API</b> is still being used for creating images.",
+    "projects.aissistant.skills": [
+        "HTML5",
+        "CSS3",
+        "TypeScript",
+        "React.js",
+        "Next.js",
+        "OpenAI API",
+        "Gemini API"
+    ],
+    "projects.entertaining-media": "Entertaining Media",
+    "projects.entertaining-media.description": "Entertaining Media is a website where you can search all kind of contents to watch, read or play. Its slogan is \"What's your next thing to fight against boredom?\", because in here you can find everything to get entertained in different ways. All the contents shown in this page are fetched from different <b>APIs</b>, such as TMDB (for movies), IGDB (for games) and Google Books API.<br/><br/>This web project was created with <b>Next.js</b> and <b>TypeScript</b>. <b>Server Side Rendering (SSR)</b> is mainly used in most components and it adapts to any device through <b>Responsive Design</b>.",
+    "projects.entertaining-media.skills": [
+        "HTML5",
+        "CSS3",
+        "TypeScript",
+        "Next.js"
+    ],
     "projects.gpt-assistant": "GPT-assistant",
     "projects.gpt-assistant.description": "I programmed and designed a webpage that integrates OpenAI's artificial intelligence. In GPT-Assistant, there are two sample pages demonstrating examples of the OpenAI API application: one translates texts into another language, and the other generates recipes based on specified ingredients.<br/><br/>The project has been developed in two parts: The front-end part is done in <b>React</b> and with <b>React-Router</b> and <b>TypeScript</b>. The back-end part uses <b>Node.js</b> and <b>Express.js</b> to return structured responses from requests and avoid unexpected responses.",
     "projects.gpt-assistant.skills": [
@@ -65,13 +84,19 @@
         "Vitest",
         "Testing Library"
     ],
-    "projects.entertaining-media": "Entertaining Media",
-    "projects.entertaining-media.description": "Entertaining Media is a website where you can search all kind of contents to watch, read or play. Its slogan is \"What's your next thing to fight against boredom?\", because in here you can find everything to get entertained in different ways. All the contents shown in this page are fetched from different <b>APIs</b>, such as TMDB (for movies), IGDB (for games) and Google Books API.<br/><br/>This web project was created with <b>Next.js</b> and <b>TypeScript</b>. <b>Server Side Rendering (SSR)</b> is mainly used in most components and it adapts to any device through <b>Responsive Design</b>.",
-    "projects.entertaining-media.skills": [
+    "projects.notify": "Notify",
+    "projects.notify.description": "My first web project was 'Notify!', an application based on a TO-DO List to take notes and organize them yourself. It also has an authentication system to save your notes in your user account.<br/><br/>The project is divided into two parts: The front-end is built with <b>React</b> and <b>React Router</b>, and the back-end is developed using <b>Django REST Framework</b> for requests and <b>MySQL</b> to store each user's content.",
+    "projects.notify.skills": [
         "HTML5",
-        "CSS3",
-        "TypeScript",
-        "Next.js"
+        "SCSS",
+        "JavaScript",
+        "React.js",
+        "React Router",
+        "Python",
+        "Django",
+        "REST Framework",
+        "MySQL",
+        "PWA"
     ],
     "projects.repository": "Github repository",
     "projects.webpage": "Official webpage",
@@ -105,5 +130,6 @@
     ],
     "cv-networks.page-title": "CV & networks - Adrià Pulido González",
     "cv-networks.download-cv": "Download my CV here!",
-    "cv-networks.links-title": "My contact methods"
+    "cv-networks.links-title": "My contact methods",
+    "not-found.message": "This page was only a dream..."
 }
