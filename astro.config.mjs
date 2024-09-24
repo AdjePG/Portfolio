@@ -6,7 +6,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://www.adriapulido.dev',
-  base: '/Portfolio/',
   integrations: [react(), tailwind()],
   i18n: {
     defaultLocale: 'es',
