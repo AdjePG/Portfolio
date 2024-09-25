@@ -27,16 +27,16 @@ const items = [
         Icon: WorkIcon
     },
     {
-        id: 'education',
-        href: '/education',
-        name: 'Education',
-        Icon: EducationIcon
-    },
-    {
         id: 'projects',
         href: '/projects',
         name: 'Projects',
         Icon: ProjectIcon
+    },
+    {
+        id: 'education',
+        href: '/education',
+        name: 'Education',
+        Icon: EducationIcon
     },
     {
         id: 'skills',
