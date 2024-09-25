@@ -1,5 +1,6 @@
 {
     "home.page-title": "Portfolio - Adrià Pulido González",
+    "home.page-description": "El portafolio personal de Adrià Pulido - Muestro todo mi trabajo, experiencia académica, habilidades y proyectos que he desarrollado.",
     "home.welcome": "¡Bienvenidos a mi portafolio!",
     "nav.about-me": "Sobre mí",
     "nav.work-experience": "Experiencia laboral",
@@ -8,10 +9,12 @@
     "nav.skills": "Habilidades",
     "nav.cv-networks": "CV y redes",
     "about-me.page-title": "Sobre mí - Adrià Pulido González",
+    "about-me.page-description": "El portafolio personal de Adrià Pulido - Conoce quién soy y a qué me dedico.",
     "about-me.title": "Adrià Pulido González",
     "about-me.subtitle": "5 años de experiencia en el desarrollo de software",
     "about-me.biography": "Dedico gran parte de mi tiempo a la programación, tanto como hobby como profesionalmente. Estoy en este campo desde hace 5 años y actualmente estoy estudiando programación <b>Python</b> e <b>inteligencia artificial</b>. Además, desarrollo proyectos web principalmente con <b>React</b>, <b>Angular</b>, <b>Node.js</b> y <b>Spring Boot</b>. Estoy constantemente al día de los últimos desarrollos tecnológicos y siempre aprendiendo. Siempre busco soluciones a los problemas que encuentro y me adapto a cualquier situación.",
     "work-experience.page-title": "Experiencia laboral - Adrià Pulido González",
+    "work-experience.page-description": "El portafolio personal de Adrià Pulido - Conoce mi trayectoria laboral.",
     "work-experience.seidor": "SEIDOR",
     "work-experience.seidor.role": "Programador junior .NET para SAP Business One",
     "work-experience.seidor.period": "04/2021 - 03/2024",
@@ -25,31 +28,8 @@
         "Alta participación en proyectos pequeños y grandes para PYMES y grandes empresas."
     ],
     "work-experience.seidor.training": "<span class=\"uppercase underline font-semibold\">Formación:</span> Prevención de riesgos laborales, seguridad informática e idiomas.",
-    "education.page-title": "Educación - Adrià Pulido González",
-    "education.tokio-school": "Tokio School",
-    "education.tokio-school.course": "Curso de programación en Python y especialización en IA (ML y DL)",
-    "education.tokio-school.period": "05/2023 - 05/2025",
-    "education.tokio-school.competencies": [
-        "Programación orientada a objetos en <b>Python</b> y preparación para el certificado oficial PCAP.",
-        "Uso de librerías para Python como <b>NumPy</b>, <b>Pandas</b> y <b>Flask</b>.",
-        "Entrenamiento de modelos supervisados, no supervisados y semi-supervisados con <b>Scikit-learn</b>."
-    ],
-    "education.tokio-school.projects": [
-        "<span class=\"uppercase underline font-semibold\">Proyecto final de python:</span> Página web basada en una 'to-do list' con un sistema básico de autenticación de usuarios, utilizando <b>React</b>, <b>Django</b> y <b>MySQL</b>.",
-        "<span class=\"uppercase underline font-semibold\">Proyecto final de Machine Learning:</span> Varios modelos especializados en clasificar correos entrenados con un conjunto de datos de spam utilizando <b>Regresión Logística</b>, <b>KNN</b>, <b>Árboles de Decisión Aleatorios</b> y <b>SVM</b>"
-    ],
-    "education.uvic": "UVIC-UCC Teknós",
-    "education.uvic.course": "CFGS en Desarrollo de Aplicaciones Multiplataforma",
-    "education.uvic.period": "09/2020 - 06/2022",
-    "education.uvic.competencies": [
-        "Programación orientada a objetos en <b>Java</b> y consultas con BBDD relacionales <b>SQL</b>.",
-        "Programación con lenguajes web como <b>HTML5</b>, <b>CSS3</b>, <b>JavaScript/TypeScript</b> y <b>PHP</b>.",
-        "Programación con otros lenguajes y tecnologías como <b>Python</b>, <b>Android Studio</b>, <b>Git</b>, <b>.NET</b> y <b>Windows Server</b>."
-    ],
-    "education.uvic.projects": [
-        "<span class=\"uppercase underline font-semibold\">Proyecto final de CFGS:</span> Página web basada en una red social muy simplificada utilizando <b>Angular</b> como framework de front-end, <b>Node.js</b> con <b>Express.js</b> para el back-end de API REST y <b>MongoDB</b>."
-    ],
     "projects.page-title": "Proyectos - Adrià Pulido González",
+    "projects.page-description": "El portafolio personal de Adrià Pulido - Descubre los proyectos que he realizado y los que voy a hacer.",
     "projects.aissistant": "AIssistant",
     "projects.aissistant.description": "AIssistant es un asistente virtual que implementa la inteligencia artificial para realizar diversas funciones. Esta app web es una extensión de mi proyecto anterior, GPT-Assistant, pero está mejor optimizada, mejor presentada, y con la intención de ir implementando más funciones útiles para la vida cotidiana de las personas en el futuro.<br/><br/>Actualmente, puedes traducir textos en varios idiomas, generar recetas de cocina y obtener curiosidades sobre un tema en concreto, además de una pregunta relacionada con esa curiosidad.<br/><br/>El proyecto se ha desarrollado utilizando <b>Next.js</b> para crear el front-end y el back-end. Para la generación artificial de texto, se ha utilizado <b>Gemini API</b>, mientras que para la generación de imágenes, se sigue empleando <b>OpenAI API</b>.",
     "projects.aissistant.skills": [
@@ -101,7 +81,33 @@
     "projects.repository": "Repositorio de Github",
     "projects.webpage": "Página web oficial",
     "projects.video-preview": "Vídeo de previsualización",
+    "education.page-title": "Educación - Adrià Pulido González",
+    "education.page-description": "El portafolio personal de Adrià Pulido - Conoce mi formación académica.",
+    "education.tokio-school": "Tokio School",
+    "education.tokio-school.course": "Curso de programación en Python y especialización en IA (ML y DL)",
+    "education.tokio-school.period": "05/2023 - 05/2025",
+    "education.tokio-school.competencies": [
+        "Programación orientada a objetos en <b>Python</b> y preparación para el certificado oficial PCAP.",
+        "Uso de librerías para Python como <b>NumPy</b>, <b>Pandas</b> y <b>Flask</b>.",
+        "Entrenamiento de modelos supervisados, no supervisados y semi-supervisados con <b>Scikit-learn</b>."
+    ],
+    "education.tokio-school.projects": [
+        "<span class=\"uppercase underline font-semibold\">Proyecto final de python:</span> Página web basada en una 'to-do list' con un sistema básico de autenticación de usuarios, utilizando <b>React</b>, <b>Django</b> y <b>MySQL</b>.",
+        "<span class=\"uppercase underline font-semibold\">Proyecto final de Machine Learning:</span> Varios modelos especializados en clasificar correos entrenados con un conjunto de datos de spam utilizando <b>Regresión Logística</b>, <b>KNN</b>, <b>Árboles de Decisión Aleatorios</b> y <b>SVM</b>"
+    ],
+    "education.uvic": "UVIC-UCC Teknós",
+    "education.uvic.course": "CFGS en Desarrollo de Aplicaciones Multiplataforma",
+    "education.uvic.period": "09/2020 - 06/2022",
+    "education.uvic.competencies": [
+        "Programación orientada a objetos en <b>Java</b> y consultas con BBDD relacionales <b>SQL</b>.",
+        "Programación con lenguajes web como <b>HTML5</b>, <b>CSS3</b>, <b>JavaScript/TypeScript</b> y <b>PHP</b>.",
+        "Programación con otros lenguajes y tecnologías como <b>Python</b>, <b>Android Studio</b>, <b>Git</b>, <b>.NET</b> y <b>Windows Server</b>."
+    ],
+    "education.uvic.projects": [
+        "<span class=\"uppercase underline font-semibold\">Proyecto final de CFGS:</span> Página web basada en una red social muy simplificada utilizando <b>Angular</b> como framework de front-end, <b>Node.js</b> con <b>Express.js</b> para el back-end de API REST y <b>MongoDB</b>."
+    ],
     "skills.page-title": "Habilidades - Adrià Pulido González",
+    "skills.page-description": "El portafolio personal de Adrià Pulido - Descubre mis habilidades técnicas y personales.",
     "skills.technical-skills": "Habilidades técnicas",
     "skills.technical-skills.frontend-1-title": "Lenguajes front-end",
     "skills.technical-skills.frontend-1-description": "HTML5, CSS3 y JavaScript/TypeScript",
@@ -125,11 +131,14 @@
         "Creativo, original y resolutivo.",
         "Trabajo en equipo y relación muy buena con los compañeros.",
         "Adaptación a cualquier situación o problema",
-        "Capacidad para aguantar ciertos tareas bajo presión",
-        "Capacidad para seguir formandome en cualquier ámbito tecnológico o personal"
+        "Capacidad para aguantar ciertas tareas bajo presión",
+        "Capacidad para seguir formándome en cualquier ámbito tecnológico y personal"
     ],
     "cv-networks.page-title": "CV y redes - Adrià Pulido González",
+    "cv-networks.page-description": "El portafolio personal de Adrià Pulido - Explora mis redes y contáctame.",
     "cv-networks.download-cv": "¡Descarga mi CV aquí!",
     "cv-networks.links-title": "Mis vías de contacto",
+    "not-found.page-title": "Página no encontrada - Adrià Pulido González",
+    "not-found.page-description": "El portafolio personal de Adrià Pulido - Esta página era solo un sueño...",
     "not-found.message": "Esta página era solo un sueño..."
 }

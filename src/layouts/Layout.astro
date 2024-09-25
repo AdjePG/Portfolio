@@ -6,23 +6,25 @@ import type { Translations } from '@/others/types';
 
 interface Props {
 	title: string;
+	description: string;
 	language: string;
 	translations: Translations
 }
 
-const { title, language, translations } = Astro.props;
+const { title, description, language, translations } = Astro.props;
 ---
 
 <!doctype html>
 <html lang={language}>
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Adrià Pulido's personal portfolio" />
+		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" type="image/svg+xml" href=`${import.meta.env.BASE_URL}favicon.svg` />
 		<meta name="generator" content={Astro.generator} />
-		<meta property="og:title" content="Adrià Pulido González - Portfolio" />
+		<meta property="og:title" content={title} />
 		<meta property="og:image" content="https://github.com/user-attachments/assets/664d99e5-ec92-4398-84b2-1491ef7e4ce5" />
+		<meta property="og:description" content={description} />
 		<title>{title}</title>
 		<ViewTransitions />
 	</head>
