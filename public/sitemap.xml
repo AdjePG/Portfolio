@@ -36,6 +36,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.adriapulido.dev/en/education/" />
   </url>
   <url>
+    <loc>https://www.adriapulido.dev/skills/</loc>
+    <lastmod>2024-09-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.adriapulido.dev/skills/" />
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.adriapulido.dev/ca/skills/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.adriapulido.dev/en/skills/" />
+  </url>
+  <url>
     <loc>https://www.adriapulido.dev/cv-networks/</loc>
     <lastmod>2024-09-24</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.adriapulido.dev/cv-networks/" />
