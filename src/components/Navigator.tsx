@@ -70,7 +70,7 @@ export default function Navigator ({language, translations} : Props) {
                             aria-label={translations[`nav.${item.id}`] as string}
                             onMouseEnter={() => setItemHovering(getRelativeLocaleUrl(language, item.href))}
                             onMouseLeave={() => setItemHovering(null)}
-                            className="p-3 w-140 md:h-24 text-sm text-center content-center"
+                            className="p-3 w-140 md:h-24 text-sm text-center content-center rounded-xl"
                         >
                             <item.Icon
                                 filled={itemHovering === getRelativeLocaleUrl(language, item.href) || currentPath === getRelativeLocaleUrl(language, item.href)}
