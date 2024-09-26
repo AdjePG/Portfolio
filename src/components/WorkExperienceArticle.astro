@@ -1,15 +1,24 @@
 ---
+import PencilIcon from '@/icons/PencilIcon'
+import TrophyIcon from '@/icons/TrophyIcon'
+
 interface Props {
     img : string
     company : string
     role : string
     period : string
     tasks : string[]
+    achievements : string[]
     training : string
+    others : {
+        titleResponsabilities: string,
+        titleAchievements: string
+        titleTraining: string
+    }
     className? : string
 }
 
-const { img, company, role, period, tasks, training, className } = Astro.props
+const { img, company, role, period, tasks, achievements, training, others, className } = Astro.props
 ---
 
 <article class={className}>
@@ -23,14 +32,27 @@ const { img, company, role, period, tasks, training, className } = Astro.props
         <small class="period text-md font-semibold">{period}</small>
     </header>
     <hr class="my-5 border-2 border-[#cbe0ff] dark:border-[#010b1a]"/>
-    <ul class="list-disc ml-5">
+    <p class="mt-5 font-semibold uppercase">
+        <PencilIcon className='w-6 h-6 mr-2 inline-block' filled/>{others.titleResponsabilities}
+    </p>
+    <ul class="list-disc mt-3 ml-14">
         {
             tasks.map(item => (
                 <li set:html={item}></li>
             ))
         }
     </ul>
-    <p class="mt-3" set:html={training}></p>
+    <p class="mt-5 font-semibold uppercase">
+        <TrophyIcon className='w-6 h-6 mr-2 inline-block' filled/>{others.titleAchievements}
+    </p>
+    <ul class="list-disc mt-3 ml-14">
+        {
+            achievements.map(item => (
+                <li set:html={item}></li>
+            ))
+        }
+    </ul>
+    <p class="mt-5"><span class="uppercase font-semibold">{others.titleTraining}:</span> {training}</p>
 </article>
 
 <style>

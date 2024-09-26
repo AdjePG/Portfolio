@@ -6,6 +6,11 @@ import Layout from '@/layouts/Layout.astro';
 const { currentLocale } = Astro
 const language = currentLocale || 'es'
 const translations = getTranslations(language)
+const others = {
+    titleResponsabilities: translations["work-experience.responsabilities-title"] as string,
+    titleAchievements: translations["work-experience.achievements-title"] as string,
+    titleTraining: translations["work-experience.training-title"] as string
+}
 ---
 
 <Layout 
@@ -19,8 +24,10 @@ const translations = getTranslations(language)
         company={translations["work-experience.seidor"] as string}
         role={translations["work-experience.seidor.role"] as string}
         period={translations["work-experience.seidor.period"] as string}
-        tasks={translations["work-experience.seidor.tasks"] as string[]}
+        tasks={translations["work-experience.seidor.responsabilities"] as string[]}
+        achievements={translations["work-experience.seidor.achievements"] as string[]}
         training={translations["work-experience.seidor.training"] as string}
+        others={others}
         className="w-full"
     />
 </Layout>

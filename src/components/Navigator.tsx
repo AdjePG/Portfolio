@@ -17,37 +17,37 @@ const items = [
     {
         id: 'about-me',
         href: '/about-me',
-        name: 'About me',
+        label: 'About me',
         Icon: UserIcon
     },
     {
         id: 'work-experience',
         href: '/work-experience',
-        name: 'Work experience',
+        label: 'Work experience',
         Icon: WorkIcon
     },
     {
         id: 'projects',
         href: '/projects',
-        name: 'Projects',
+        label: 'Projects',
         Icon: ProjectIcon
     },
     {
         id: 'education',
         href: '/education',
-        name: 'Education',
+        label: 'Education',
         Icon: EducationIcon
     },
     {
         id: 'skills',
         href: '/skills',
-        name: 'Skills',
+        label: 'Skills',
         Icon: SkillsIcon
     },
     {
         id: 'cv-networks',
         href: '/cv-networks',
-        name: 'CV & networks',
+        label: 'CV & networks',
         Icon: NetworkIcon
     }
 ];
@@ -67,6 +67,7 @@ export default function Navigator ({language, translations} : Props) {
                     >
                         <a 
                             href={getRelativeLocaleUrl(language, item.href)}
+                            aria-label={translations[`nav.${item.id}`] as string}
                             onMouseEnter={() => setItemHovering(getRelativeLocaleUrl(language, item.href))}
                             onMouseLeave={() => setItemHovering(null)}
                             className="p-3 w-140 md:h-24 text-sm text-center content-center"

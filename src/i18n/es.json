@@ -18,16 +18,19 @@
     "work-experience.seidor": "SEIDOR",
     "work-experience.seidor.role": "Programador junior .NET para SAP Business One",
     "work-experience.seidor.period": "04/2021 - 03/2024",
-    "work-experience.seidor.tasks": [
-        "Desarrollo de nuevos add-ons para <b>SAP Business One</b> con <b>.NET</b> (<b>Visual Basic</b> y <b>C#</b>).",
-        "Mejora de add-ons existentes (mantenimiento, automatización y optimización de código).",
-        "Gestión y generación de consultas en bases de datos SQL (<b>Microsoft SQL Server</b> y <b>SAP Hana</b>).",
-        "Comunicación y trabajo directo con los clientes.",
-        "Resolución de incidencias técnicas y soporte continuo a clientes.",
-        "Uso de repositorios y control de versiones como <b>Git</b>.",
-        "Alta participación en proyectos pequeños y grandes para PYMES y grandes empresas."
+    "work-experience.seidor.responsabilities": [
+        "Desarrollé add-ons nuevos y realicé mejoras de los existentes para <b>SAP Business One</b> con <b>.NET</b> (<b>Visual Basic</b> y <b>C#</b>), automatizando procesos y creando formularios validados que optimizaron considerablemente los tiempos y la eficiencia de trabajo de los clientes.",
+        "Gestioné bases de datos <b>SQL</b> (<b>Microsoft Server SQL</b> y <b>SAP Hana</b>), asegurando la integridad y relación de los datos al crear tablas y campos.",
+        "Colaboré de manera directa con clientes (PYMES y grandes empresas) para identificar necesidades y resolver incidencias."
     ],
-    "work-experience.seidor.training": "<span class=\"uppercase underline font-semibold\">Formación:</span> Prevención de riesgos laborales, seguridad informática e idiomas.",
+    "work-experience.seidor.achievements": [
+        "Tras comenzar como estudiante en prácticas, obtuve un contrato indefinido en menos de 1 año. Durante estos <b>3 años</b>, mi trabajo ha sido <b>altamente valorado</b> por clientes, compañeros y superiores.",
+        "Llegué a reestructurar el código de uno de los add-ons más utilizados de la empresa, reduciendo su tamaño un <b>50%</b> y mejorando el tiempo de procesamiento en un <b>20%</b>. Corregí errores graves e implementé nuevas funcionalidades necesarias reutilizando código existente."
+    ],
+    "work-experience.seidor.training": "Prevención de riesgos laborales, seguridad informática e idiomas.",
+    "work-experience.responsabilities-title": "Responsabilidades",
+    "work-experience.achievements-title": "Logros conseguidos",
+    "work-experience.training-title": "Formación",
     "projects.page-title": "Proyectos - Adrià Pulido González",
     "projects.page-description": "El portafolio personal de Adrià Pulido - Descubre los proyectos que he realizado y los que voy a hacer.",
     "projects.aissistant": "AIssistant",
@@ -64,7 +67,7 @@
         "Vitest",
         "Testing Library"
     ],
-    "projects.notify": "Notify",
+    "projects.notify": "Notify!",
     "projects.notify.description": "Mi primer proyecto web fue 'Notify!', una aplicación basada en una TO-DO List para poder tener apuntes y poderlos organizar a tu manera. También tiene un sistema de autenticación para poder guardar tus notas en tu usuario.<br/><br/>El proyecto está dividido en dos partes: El front-end está hecho con <b>React</b> y <b>React Router</b> y el back-end se ha realizado con <b>Django REST Framework</b> para las solicitudes y <b>MySQL</b> para guardar el contenido de cada usuario.",
     "projects.notify.skills": [
         "HTML5",
@@ -92,8 +95,8 @@
         "Entrenamiento de modelos supervisados, no supervisados y semi-supervisados con <b>Scikit-learn</b>."
     ],
     "education.tokio-school.projects": [
-        "<span class=\"uppercase underline font-semibold\">Proyecto final de python:</span> Página web basada en una 'to-do list' con un sistema básico de autenticación de usuarios, utilizando <b>React</b>, <b>Django</b> y <b>MySQL</b>.",
-        "<span class=\"uppercase underline font-semibold\">Proyecto final de Machine Learning:</span> Varios modelos especializados en clasificar correos entrenados con un conjunto de datos de spam utilizando <b>Regresión Logística</b>, <b>KNN</b>, <b>Árboles de Decisión Aleatorios</b> y <b>SVM</b>"
+        "<span class=\"uppercase font-semibold\">Proyecto final de python:</span> Página web basada en una 'to-do list' con un sistema básico de autenticación de usuarios, utilizando <b>React</b>, <b>Django</b> y <b>MySQL</b>.",
+        "<span class=\"uppercase font-semibold\">Proyecto final de Machine Learning:</span> Varios modelos especializados en clasificar correos entrenados con un conjunto de datos de spam utilizando <b>Regresión Logística</b>, <b>KNN</b>, <b>Árboles de Decisión Aleatorios</b> y <b>SVM</b>"
     ],
     "education.uvic": "UVIC-UCC Teknós",
     "education.uvic.course": "CFGS en Desarrollo de Aplicaciones Multiplataforma",
@@ -104,7 +107,7 @@
         "Programación con otros lenguajes y tecnologías como <b>Python</b>, <b>Android Studio</b>, <b>Git</b>, <b>.NET</b> y <b>Windows Server</b>."
     ],
     "education.uvic.projects": [
-        "<span class=\"uppercase underline font-semibold\">Proyecto final de CFGS:</span> Página web basada en una red social muy simplificada utilizando <b>Angular</b> como framework de front-end, <b>Node.js</b> con <b>Express.js</b> para el back-end de API REST y <b>MongoDB</b>."
+        "<span class=\"uppercase font-semibold\">Proyecto final de CFGS:</span> Página web basada en una red social muy simplificada utilizando <b>Angular</b> como framework de front-end, <b>Node.js</b> con <b>Express.js</b> para el back-end de API REST y <b>MongoDB</b>."
     ],
     "skills.page-title": "Habilidades - Adrià Pulido González",
     "skills.page-description": "El portafolio personal de Adrià Pulido - Descubre mis habilidades técnicas y personales.",

@@ -30,7 +30,7 @@ const { title, description, language, translations } = Astro.props;
 	</head>
 	<body>
 		<Header language={language} translations={translations} />
-		<main class="custom-scrollbar flex flex-col flex-start items-center dark:text-white p-4 mx-auto border-box w-full opacity-0">
+		<main class="custom-scrollbar flex flex-col flex-start items-center dark:text-white py-4 pl-4 pr-1 mx-auto border-box w-full opacity-0">
 			<div class="my-auto w-full max-w-[1100px]">
 				<slot />
 			</div>

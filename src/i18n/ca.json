@@ -17,16 +17,19 @@
     "work-experience.seidor": "SEIDOR",
     "work-experience.seidor.role": "Programador junior .NET per a SAP Business One",
     "work-experience.seidor.period": "04/2021 - 03/2024",
-    "work-experience.seidor.tasks": [
-        "Desenvolupament de nous add-ons per a <b>SAP Business One</b> amb <b>.NET</b> (<b>Visual Basic</b> i <b>C#</b>).",
-        "Millora dels add-ons existents (manteniment, automatització i optimització de codi).",
-        "Gestió i generació de consultes en bases de dades SQL (<b>Microsoft SQL Server</b> i <b>SAP Hana</b>).",
-        "Comunicació i treball directe amb els clients.",
-        "Resolució d'incidències tècniques' i suport continu als clients.",
-        "Ús de repositoris i control de versions com <b>Git</b>.",
-        "Alta participació en projectes petits i grans per a PIMES i grans empreses."
+    "work-experience.seidor.responsabilities": [
+        "Vaig desenvolupar nous complements (add-ons) i vaig realitzar millores dels ja existents per a <b>SAP Business One</b> amb <b>.NET</b> (<b>Visual Basic</b> i <b>C#</b>), automatitzant processos i creant formularis validats que van optimitzar considerablement els temps i l'eficiència de treball dels clients.",
+        "Vaig gestionar bases de dades <b>SQL</b> (<b>Microsoft Server SQL</b> i <b>SAP Hana</b>), assegurant la integritat i la relació de les dades en crear taules i camps.",
+        "Vaig col·laborar directament amb clients (pimes i grans empreses) per identificar necessitats i resoldre incidències."
     ],
-    "work-experience.seidor.training": "<span class=\"uppercase underline font-semibold\">Formació:</span> Prevenció de riscos laborals, seguretat informàtica i idiomes.",
+    "work-experience.seidor.achievements": [
+        "Després de començar com a estudiant en pràctiques, vaig obtenir un contracte indefinit en menys d'un any. Durant aquests <b>3 anys</b>, la meva feina ha estat <b>altament valorada</b> per clients, companys i supervisors.",
+        "Vaig reestructurar el codi d'un dels complements més utilitzats de l'empresa, reduint la seva mida en un <b>50%</b> i millorant el temps de processament en un <b>20%</b>. Vaig corregir errors greus i vaig implementar noves funcionalitats necessàries reutilitzant codi existent."
+    ],
+    "work-experience.seidor.training": "Prevenció de riscos laborals, seguretat informàtica i idiomes.",
+    "work-experience.responsabilities-title": "Responsabilitats",
+    "work-experience.achievements-title": "Èxits aconseguits",
+    "work-experience.training-title": "Formació",
     "projects.page-title": "Projectes - Adrià Pulido González",
     "projects.page-description": "El portfoli personal d'Adrià Pulido - Descobreix els projectes que he realitzat i els que tinc previst fer.",
     "projects.aissistant": "AIssistant",
@@ -63,7 +66,7 @@
         "Vitest",
         "Testing Library"
     ],
-    "projects.notify": "Notify",
+    "projects.notify": "Notify!",
     "projects.notify.description": "El meu primer projecte web va ser 'Notify!', una aplicació basada en una TO-DO List per poder prendre apunts i organitzar-los a la teva manera. També té un sistema d'autenticació per poder desar les teves notes al teu usuari.<br/><br/>El projecte està dividit en dues parts: El front-end està fet amb <b>React</b> i <b>React Router</b>, i el back-end s'ha realitzat amb <b>Django REST Framework</b> per a les sol·licituds i <b>MySQL</b> per desar el contingut de cada usuari.",
     "projects.notify.skills": [
         "HTML5",
@@ -91,8 +94,8 @@
         "Entrenament de models supervisats, no supervisats i semi-supervisats amb <b>Scikit-learn</b>."
     ],
     "education.tokio-school.projects": [
-        "<span class=\"uppercase underline font-semibold\">Projecte final de Python:</span> Pàgina web basada en una 'to-do list' amb un sistema bàsic d'autenticació d'usuaris, utilitzant <b>React</b>, <b>Django</b> i <b>MySQL</b>.",
-        "<span class=\"uppercase underline font-semibold\">Projecte final de Machine Learning:</span> Diversos models especialitzats en classificar correus entrenats amb un conjunt de dades de spam utilitzant <b>Regressió Logística</b>, <b>KNN</b>, <b>Arbres de Decisió Aleatoris</b> i <b>SVM</b>."
+        "<span class=\"uppercase font-semibold\">Projecte final de Python:</span> Pàgina web basada en una 'to-do list' amb un sistema bàsic d'autenticació d'usuaris, utilitzant <b>React</b>, <b>Django</b> i <b>MySQL</b>.",
+        "<span class=\"uppercase font-semibold\">Projecte final de Machine Learning:</span> Diversos models especialitzats en classificar correus entrenats amb un conjunt de dades de spam utilitzant <b>Regressió Logística</b>, <b>KNN</b>, <b>Arbres de Decisió Aleatoris</b> i <b>SVM</b>."
     ],
     "education.uvic": "UVIC-UCC Teknós",
     "education.uvic.course": "CFGS en Desenvolupament d'Aplicacions Multiplataforma",
@@ -103,7 +106,7 @@
         "Programació amb altres llenguatges i tecnologies com <b>Python</b>, <b>Android Studio</b>, <b>Git</b>, <b>.NET</b> i <b>Windows Server</b>."
     ],
     "education.uvic.projects": [
-        "<span class=\"uppercase underline font-semibold\">Projecte final de CFGS:</span> Pàgina web basada en una xarxa social molt simplificada utilitzant <b>Angular</b> com a framework de front-end, <b>Node.js</b> amb <b>Express.js</b> per a l'API REST del back-end i <b>MongoDB</b>."
+        "<span class=\"uppercase font-semibold\">Projecte final de CFGS:</span> Pàgina web basada en una xarxa social molt simplificada utilitzant <b>Angular</b> com a framework de front-end, <b>Node.js</b> amb <b>Express.js</b> per a l'API REST del back-end i <b>MongoDB</b>."
     ],
     "skills.page-title": "Habilitats - Adrià Pulido González",
     "skills.page-description": "El portfoli personal d'Adrià Pulido - Descobreix les meves habilitats tècniques i personals.",

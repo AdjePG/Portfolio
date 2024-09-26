@@ -18,16 +18,19 @@
     "work-experience.seidor": "SEIDOR",
     "work-experience.seidor.role": "Junior .NET programmmer for SAP Business One",
     "work-experience.seidor.period": "04/2021 - 03/2024",
-    "work-experience.seidor.tasks": [
-        "Development of new add-ons for <b>SAP Business One</b> with <b>.NET</b> (</b>Visual Basic</b> & <b>C#</b>).",
-        "Improvement of existing add-ons (maintenance, automation, and code optimization).",
-        "Management and generation of queries in SQL databases (<b>Microsoft SQL Server</b> & <b>SAP Hana</b>.",
-        "Communication and direct work with customers.",
-        "Resolution of technical issues and continuous support to customers.",
-        "Use of repositories and version control like <b>Git.</b>",
-        "High participation in small and big projects for SMEs and big companies."
+    "work-experience.seidor.responsabilities": [
+        "Developed new add-ons and improved existing ones for <b>SAP Business One</b> using <b>.NET</b> (<b>Visual Basic</b> and <b>C#</b>), automating processes and creating validated forms that significantly optimized clients' work times and efficiency.",
+        "Managed <b>SQL</b> databases (<b>Microsoft Server SQL</b> and <b>SAP Hana</b>), ensuring data integrity and relationships when creating tables and fields.",
+        "Collaborated directly with clients (SMEs and large companies) to identify needs and resolve issues."
     ],
-    "work-experience.seidor.training": "<span class=\"uppercase underline font-semibold\">Training:</span> Occupational risk prevention, computer security and languages.",
+    "work-experience.seidor.achievements": [
+        "After starting as an intern, I obtained a permanent contract in less than 1 year. Over these <b>3 years</b>, my work has been <b>highly valued</b> by clients, colleagues, and supervisors.",
+        "I restructured the code of one of the company's most widely used add-ons, reducing its size by <b>50%</b> and improving processing time by <b>20%</b>. I corrected critical errors and implemented necessary new functionalities by reusing existing code."
+    ],
+    "work-experience.seidor.training": "Occupational risk prevention, computer security and languages.",
+    "work-experience.responsabilities-title": "Responsibilities",
+    "work-experience.achievements-title": "Achievements",
+    "work-experience.training-title": "Training",
     "projects.page-title": "Projects - Adrià Pulido González",
     "projects.page-description": "Adrià Pulido's personal portfolio - Discover the projects I have completed and the ones I plan to undertake.",
     "projects.aissistant": "AIssistant",
@@ -64,7 +67,7 @@
         "Vitest",
         "Testing Library"
     ],
-    "projects.notify": "Notify",
+    "projects.notify": "Notify!",
     "projects.notify.description": "My first web project was 'Notify!', an application based on a TO-DO List to take notes and organize them yourself. It also has an authentication system to save your notes in your user account.<br/><br/>The project is divided into two parts: The front-end is built with <b>React</b> and <b>React Router</b>, and the back-end is developed using <b>Django REST Framework</b> for requests and <b>MySQL</b> to store each user's content.",
     "projects.notify.skills": [
         "HTML5",
@@ -92,8 +95,8 @@
         "Training of supervised, unsupervised, and semi-supervised models with <b>Scikit</b>."
     ],
     "education.tokio-school.projects": [
-        "<span class=\"uppercase underline font-semibold\">Python final project:</span> Web page based on a 'to-do list' with a basic user authentication system, using <b>React</b>, <b>Django</b> and <b>MySQL</b>.",
-        "<span class=\"uppercase underline font-semibold\">Machine Learning final project:</span> Several models specialized in classifing mails trained by a spam dataset with <b>Logistic Regression</b>, <b>KNN</b>, <b>Random Forests</b> and <b>SVM</b>."
+        "<span class=\"uppercase font-semibold\">Python final project:</span> Web page based on a 'to-do list' with a basic user authentication system, using <b>React</b>, <b>Django</b> and <b>MySQL</b>.",
+        "<span class=\"uppercase font-semibold\">Machine Learning final project:</span> Several models specialized in classifing mails trained by a spam dataset with <b>Logistic Regression</b>, <b>KNN</b>, <b>Random Forests</b> and <b>SVM</b>."
     ],
     "education.uvic": "UVIC-UCC Teknós",
     "education.uvic.course": "Vocational Training in Multiplatform Application Development",
@@ -104,7 +107,7 @@
         "Programming with other languages and technologies like <b>Python</b>, <b>Android Studio</b>, <b>Git</b>, <b>.NET</b> and <b>Windows Server</b>."
     ],
     "education.uvic.projects": [
-        "<span class=\"uppercase underline font-semibold\">VT final project:</span> Web page based on a very simplified social network using <b>Angular</b> as a front-end framework, <b>Node.js</b> with <b>Express.js</b> for the API REST back-end and <b>MongoDB</b>."
+        "<span class=\"uppercase font-semibold\">VT final project:</span> Web page based on a very simplified social network using <b>Angular</b> as a front-end framework, <b>Node.js</b> with <b>Express.js</b> for the API REST back-end and <b>MongoDB</b>."
     ],
     "skills.page-title": "Skills - Adrià Pulido González",
     "skills.page-description": "Adrià Pulido's personal portfolio - Discover my technical and personal skills.",
