@@ -1,50 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.adriapulido.dev/</loc>
-    <lastmod>2024-09-24</lastmod>
+    <lastmod>2024-09-27</lastmod>
+    <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.adriapulido.dev/" />
     <xhtml:link rel="alternate" hreflang="ca" href="https://www.adriapulido.dev/ca/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.adriapulido.dev/en/" />
   </url>
   <url>
     <loc>https://www.adriapulido.dev/about-me/</loc>
-    <lastmod>2024-09-24</lastmod>
+    <lastmod>2024-09-27</lastmod>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.adriapulido.dev/about-me/" />
     <xhtml:link rel="alternate" hreflang="ca" href="https://www.adriapulido.dev/ca/about-me/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.adriapulido.dev/en/about-me/" />
   </url>
   <url>
     <loc>https://www.adriapulido.dev/work-experience/</loc>
-    <lastmod>2024-09-24</lastmod>
+    <lastmod>2024-09-27</lastmod>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.adriapulido.dev/work-experience/" />
     <xhtml:link rel="alternate" hreflang="ca" href="https://www.adriapulido.dev/ca/work-experience/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.adriapulido.dev/en/work-experience/" />
   </url>
   <url>
     <loc>https://www.adriapulido.dev/projects/</loc>
-    <lastmod>2024-09-24</lastmod>
+    <lastmod>2024-09-27</lastmod>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.adriapulido.dev/projects/" />
     <xhtml:link rel="alternate" hreflang="ca" href="https://www.adriapulido.dev/ca/projects/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.adriapulido.dev/en/projects/" />
   </url>
   <url>
     <loc>https://www.adriapulido.dev/education/</loc>
-    <lastmod>2024-09-24</lastmod>
+    <lastmod>2024-09-27</lastmod>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.adriapulido.dev/education/" />
     <xhtml:link rel="alternate" hreflang="ca" href="https://www.adriapulido.dev/ca/education/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.adriapulido.dev/en/education/" />
   </url>
   <url>
     <loc>https://www.adriapulido.dev/skills/</loc>
-    <lastmod>2024-09-24</lastmod>
+    <lastmod>2024-09-27</lastmod>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.adriapulido.dev/skills/" />
     <xhtml:link rel="alternate" hreflang="ca" href="https://www.adriapulido.dev/ca/skills/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.adriapulido.dev/en/skills/" />
   </url>
   <url>
     <loc>https://www.adriapulido.dev/cv-networks/</loc>
-    <lastmod>2024-09-24</lastmod>
+    <lastmod>2024-09-27</lastmod>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.adriapulido.dev/cv-networks/" />
     <xhtml:link rel="alternate" hreflang="ca" href="https://www.adriapulido.dev/ca/cv-networks/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.adriapulido.dev/en/cv-networks/" />
