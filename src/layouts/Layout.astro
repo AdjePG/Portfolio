@@ -26,6 +26,20 @@ const { title, description, language, translations } = Astro.props;
 		<meta property="og:image" content="https://github.com/user-attachments/assets/664d99e5-ec92-4398-84b2-1491ef7e4ce5" />
 		<meta property="og:description" content={description} />
 		<title>{title}</title>
+		<script type="application/ld+json" is:inline>
+			{
+				"@context": "https://schema.org",
+				"@type": "Person",
+				"name": "Adrià Pulido",
+				"url": "https://www.adriapulido.dev",
+				"jobTitle": "Fullstack Developer",
+				"sameAs": [
+					"https://www.linkedin.com/in/adriapulido/",
+					"https://github.com/AdjePG"
+				],
+				"description": "Desarrollador fullstack con 5 años de experiencia creando proyectos innovadores utilizando tecnologías como React, Angular, Spring Boot y Node.js."
+			}
+		</script>
 		<ViewTransitions />
 	</head>
 	<body>

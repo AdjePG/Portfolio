@@ -13,9 +13,10 @@
     "about-me.title": "Adrià Pulido González",
     "about-me.subtitle": "5 anys d'experiència en el desenvolupament de software",
     "about-me.biography": "Dedico gran part del meu temps a la programació, tant com a hobby com professionalment. Estic en aquest camp des de fa 5 anys i actualment estic estudiant programació <b>Python</b> i <b>intel·ligència artificial</b>. A més, desenvolupo projectes web principalment amb <b>React</b>, <b>Angular</b>, <b>Node.js</b> i <b>Spring Boot</b>. Estic constantment al dia dels últims desenvolupaments tecnològics i sempre aprenent. Sempre busco solucions als problemes que trobo i m'adapto a qualsevol situació.",
-    "work-experience.page-title": "Experiència laboral - Adrià Pulido González","work-experience.page-description": "El portfoli personal d'Adrià Pulido - Coneix la meva trajectòria laboral.",
+    "work-experience.page-title": "Experiència laboral - Adrià Pulido González",
+    "work-experience.page-description": "El portfoli personal d'Adrià Pulido - Coneix la meva trajectòria laboral.",
     "work-experience.seidor": "SEIDOR",
-    "work-experience.seidor.role": "Programador junior .NET per a SAP Business One",
+    "work-experience.seidor.role": "Programador fullstack en .NET per a SAP Business One",
     "work-experience.seidor.period": "04/2021 - 03/2024",
     "work-experience.seidor.responsabilities": [
         "Vaig desenvolupar nous complements (add-ons) i vaig realitzar millores dels ja existents per a <b>SAP Business One</b> amb <b>.NET</b> (<b>Visual Basic</b> i <b>C#</b>), automatitzant processos i creant formularis validats que van optimitzar considerablement els temps i l'eficiència de treball dels clients.",

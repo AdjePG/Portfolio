@@ -16,15 +16,15 @@
     "work-experience.page-title": "Work experience - Adrià Pulido González",
     "work-experience.page-description": "Adrià Pulido's personal portfolio - Learn about my work experience.",
     "work-experience.seidor": "SEIDOR",
-    "work-experience.seidor.role": "Junior .NET programmmer for SAP Business One",
+    "work-experience.seidor.role": "Fullstack developer in .NET programmmer for SAP Business One",
     "work-experience.seidor.period": "04/2021 - 03/2024",
     "work-experience.seidor.responsabilities": [
-        "Developed new add-ons and improved existing ones for <b>SAP Business One</b> using <b>.NET</b> (<b>Visual Basic</b> and <b>C#</b>), automating processes and creating validated forms that significantly optimized clients' work times and efficiency.",
+        "Developed new add-ons and improved existing ones for <b>SAP Business One</b> using <b>.NET</b> (<b>Visual Basic</b> and <b>C#</b>), automating processes and creating validated forms that significantly optimized customers' work times and efficiency.",
         "Managed <b>SQL</b> databases (<b>Microsoft Server SQL</b> and <b>SAP Hana</b>), ensuring data integrity and relationships when creating tables and fields.",
-        "Collaborated directly with clients (SMEs and large companies) to identify needs and resolve issues."
+        "Collaborated directly with customers (SMEs and large companies) to identify needs and resolve issues."
     ],
     "work-experience.seidor.achievements": [
-        "After starting as an intern, I obtained a permanent contract in less than 1 year. Over these <b>3 years</b>, my work has been <b>highly valued</b> by clients, colleagues, and supervisors.",
+        "After starting as an intern, I obtained a permanent contract in less than 1 year. Over these <b>3 years</b>, my work has been <b>highly valued</b> by customers, colleagues, and supervisors.",
         "I restructured the code of one of the company's most widely used add-ons, reducing its size by <b>50%</b> and improving processing time by <b>30%</b>. I corrected critical errors and implemented necessary new functionalities by reusing existing code."
     ],
     "work-experience.seidor.training": "Occupational risk prevention, computer security and languages.",
