@@ -1,6 +1,6 @@
 {
     "home.page-title": "Portfoli - Adrià Pulido González",
-    "home.page-description": "El portfoli personal d'Adrià Pulido - Mostro tot el meu treball, experiència acadèmica, habilitats i projectes que he desenvolupat.",
+    "home.page-description": "El portfoli personal d'Adrià Pulido - Mostro tot el meu treball, experiència acadèmica, habilitats i projectes que he desenvolupat com a programador de software fullstack.",
     "home.welcome": "Benvinguts al meu portfoli!",
     "nav.about-me": "Sobre mi",
     "nav.work-experience": "Experiència laboral",
@@ -12,20 +12,20 @@
     "about-me.page-description": "El portfoli personal d'Adrià Pulido - Coneix qui sóc i a què em dedico.",
     "about-me.title": "Adrià Pulido González",
     "about-me.subtitle": "5 anys d'experiència en el desenvolupament de software",
-    "about-me.biography": "Dedico gran part del meu temps a la programació, tant com a hobby com professionalment. Estic en aquest camp des de fa 5 anys i actualment estic estudiant programació <b>Python</b> i <b>intel·ligència artificial</b>. A més, desenvolupo projectes web principalment amb <b>React</b>, <b>Angular</b>, <b>Node.js</b> i <b>Spring Boot</b>. Estic constantment al dia dels últims desenvolupaments tecnològics i sempre aprenent. Sempre busco solucions als problemes que trobo i m'adapto a qualsevol situació.",
+    "about-me.biography": "<p>Sóc <strong>Adrià Pulido González</strong>, tot i que alguns amics també em coneixen com 'Adje'. La primera vegada que vaig programar va ser quan tenia 14 anys, utilitzant programes com <strong>Scratch</strong> i <strong>App Inventor</strong> per fer aplicacions molt senzilles. Des de llavors, el meu interès per la <strong>programació</strong> ha anat creixent, i durant els darrers <strong>5 anys</strong>, m'he dedicat seriosament al <strong>desenvolupament de software</strong>, creant <strong>projectes innovadors</strong> i de <strong>gran utilitat</strong>, com ara <strong>AIssistant</strong>.</p><br/><p>Al llarg d'aquest temps, he treballat tant de manera professional com personal. A l'empresa <strong>SEIDOR</strong>, vaig aprendre i em vaig professionalitzar com a <strong>programador</strong>, destacant per <strong>automatitzar i millorar processos de producció</strong> de diverses empreses, que em van valorar molt positivament per la feina realitzada.</p><br/><p>Actualment, segueixo desenvolupant projectes web utilitzant les <strong>eines</strong> i <strong>tecnologies més modernes</strong> del mercat, integrant <strong>intel·ligència artificial</strong>, una tecnologia que considero clau per al futur.</p><br/><p>Com a desenvolupador amb experiència en el <strong>desenvolupament fullstack</strong>, sempre estic preparat per afrontar qualsevol repte, adaptant-me i buscant solucions innovadores.</p>",
     "work-experience.page-title": "Experiència laboral - Adrià Pulido González",
     "work-experience.page-description": "El portfoli personal d'Adrià Pulido - Coneix la meva trajectòria laboral.",
     "work-experience.seidor": "SEIDOR",
     "work-experience.seidor.role": "Programador fullstack en .NET per a SAP Business One",
     "work-experience.seidor.period": "04/2021 - 03/2024",
     "work-experience.seidor.responsabilities": [
-        "Vaig desenvolupar nous complements (add-ons) i vaig realitzar millores dels ja existents per a <b>SAP Business One</b> amb <b>.NET</b> (<b>Visual Basic</b> i <b>C#</b>), automatitzant processos i creant formularis validats que van optimitzar considerablement els temps i l'eficiència de treball dels clients.",
-        "Vaig gestionar bases de dades <b>SQL</b> (<b>Microsoft Server SQL</b> i <b>SAP Hana</b>), assegurant la integritat i la relació de les dades en crear taules i camps.",
+        "Vaig desenvolupar nous complements (add-ons) i vaig realitzar millores dels ja existents per a <strong>SAP Business One</strong> amb <strong>.NET</strong> (<strong>Visual Basic</strong> i <strong>C#</strong>), automatitzant processos i creant formularis validats que van optimitzar considerablement els temps i l'eficiència de treball dels clients.",
+        "Vaig gestionar bases de dades <strong>SQL</strong> (<strong>Microsoft Server SQL</strong> i <strong>SAP Hana</strong>), assegurant la integritat i la relació de les dades en crear taules i camps.",
         "Vaig col·laborar directament amb clients (pimes i grans empreses) per identificar necessitats i resoldre incidències."
     ],
     "work-experience.seidor.achievements": [
-        "Després de començar com a estudiant en pràctiques, vaig obtenir un contracte indefinit en menys d'un any. Durant aquests <b>3 anys</b>, la meva feina ha estat <b>altament valorada</b> per clients, companys i supervisors.",
-        "Vaig reestructurar el codi d'un dels complements més utilitzats de l'empresa, reduint la seva mida en un <b>50%</b> i millorant el temps de processament en un <b>30%</b>. Vaig corregir errors greus i vaig implementar noves funcionalitats necessàries reutilitzant codi existent."
+        "Després de començar com a estudiant en pràctiques, vaig obtenir un contracte indefinit en menys d'un any. Durant aquests <strong>3 anys</strong>, la meva feina ha estat <strong>altament valorada</strong> per clients, companys i supervisors.",
+        "Vaig reestructurar el codi d'un dels complements més utilitzats de l'empresa, reduint la seva mida en un <strong>50%</strong> i millorant el temps de processament en un <strong>30%</strong>. Vaig corregir errors greus i vaig implementar noves funcionalitats necessàries reutilitzant codi existent."
     ],
     "work-experience.seidor.training": "Prevenció de riscos laborals, seguretat informàtica i idiomes.",
     "work-experience.responsabilities-title": "Responsabilitats",
@@ -34,7 +34,7 @@
     "projects.page-title": "Projectes - Adrià Pulido González",
     "projects.page-description": "El portfoli personal d'Adrià Pulido - Descobreix els projectes que he realitzat i els que tinc previst fer.",
     "projects.aissistant": "AIssistant",
-    "projects.aissistant.description": "AIssistant és un assistent virtual que implementa la intel·ligència artificial per realitzar diverses funcions. Aquesta aplicació web és una extensió del meu projecte anterior, GPT-Assistant, però està millor optimitzada, millor presentada i amb la intenció d'implementar més funcions útils per a la vida quotidiana de les persones en el futur.<br/><br/>Actualment, pots traduir textos a diversos idiomes, generar receptes de cuina i generar curiositats sobre un tema concret, a més d'una pregunta relacionada amb aquesta curiositat.<br/><br/>El projecte s'ha desenvolupat utilitzant <b>Next.js</b> per crear tant el front-end com el back-end. Per a la generació artificial de text, s'ha utilitzat <b>Gemini API</b>, mentre que per a la generació d'imatges es continua utilitzant <b>OpenAI API</b>.",
+    "projects.aissistant.description": "AIssistant és un assistent virtual que implementa la intel·ligència artificial per realitzar diverses funcions. Aquesta aplicació web és una extensió del meu projecte anterior, GPT-Assistant, però està millor optimitzada, millor presentada i amb la intenció d'implementar més funcions útils per a la vida quotidiana de les persones en el futur.<br/><br/>Actualment, pots traduir textos a diversos idiomes, generar receptes de cuina i generar curiositats sobre un tema concret, a més d'una pregunta relacionada amb aquesta curiositat.<br/><br/>El projecte s'ha desenvolupat utilitzant <strong>Next.js</strong> per crear tant el front-end com el back-end. Per a la generació artificial de text, s'ha utilitzat <strong>Gemini API</strong>, mentre que per a la generació d'imatges es continua utilitzant <strong>OpenAI API</strong>.",
     "projects.aissistant.skills": [
         "HTML5",
         "CSS3",
@@ -45,7 +45,7 @@
         "Gemini API"
     ],
     "projects.entertaining-media": "Entertaining Media",
-    "projects.entertaining-media.description": "Entertaining Media és un lloc web on pots cercar tot tipus de continguts per veure, llegir o jugar. El seu eslògan és \"Quina és la teva pròxima cosa per lluitar contra l'avorriment?\", perquè aquí pots trobar de tot per entretenir-te de diferents maneres. Tots els continguts mostrats en aquesta pàgina es recuperen de diferents <b>APIs</b>, com TMDB (per a pel·lícules), IGDB (per a jocs) i Google Books API.<br/><br/>Aquest projecte web s'ha creat amb <b>Next.js</b> i <b>TypeScript</b>. Es fa servir principalment el <b>Server Side Rendering (SSR)</b> en la majoria de components i s'adapta a qualsevol dispositiu mitjançant <b>Responsive Design</b>.",
+    "projects.entertaining-media.description": "Entertaining Media és un lloc web on pots cercar tot tipus de continguts per veure, llegir o jugar. El seu eslògan és \"Quina és la teva pròxima cosa per lluitar contra l'avorriment?\", perquè aquí pots trobar de tot per entretenir-te de diferents maneres. Tots els continguts mostrats en aquesta pàgina es recuperen de diferents <strong>APIs</strong>, com TMDB (per a pel·lícules), IGDB (per a jocs) i Google Books API.<br/><br/>Aquest projecte web s'ha creat amb <strong>Next.js</strong> i <strong>TypeScript</strong>. Es fa servir principalment el <strong>Server Side Rendering (SSR)</strong> en la majoria de components i s'adapta a qualsevol dispositiu mitjançant <strong>Responsive Design</strong>.",
     "projects.entertaining-media.skills": [
         "HTML5",
         "CSS3",
@@ -53,7 +53,7 @@
         "Next.js"
     ],
     "projects.gpt-assistant": "GPT-assistant",
-    "projects.gpt-assistant.description": "Vaig programar i dissenyar una pàgina web que integra la intel·ligència artificial d'OpenAI. A GPT-Assistant hi ha dues pàgines de mostreig que demostren exemples d'aplicació de l'API d'OpenAI: una tradueix textos a un altre idioma, i l'altra genera receptes segons els ingredients especificats.<br/><br/>El projecte s'ha desenvolupat en dues parts: La part front-end s'ha fet amb <b>React</b> i amb <b>React-Router</b> i <b>TypeScript</b>. La part  back-end s'ha utilitzat <b>Node.js</b> i <b>Express.js</b> per, a partir de peticions, retornar respostes estructurades i evitar respostes inesperades.",
+    "projects.gpt-assistant.description": "Vaig programar i dissenyar una pàgina web que integra la intel·ligència artificial d'OpenAI. A GPT-Assistant hi ha dues pàgines de mostreig que demostren exemples d'aplicació de l'API d'OpenAI: una tradueix textos a un altre idioma, i l'altra genera receptes segons els ingredients especificats.<br/><br/>El projecte s'ha desenvolupat en dues parts: La part front-end s'ha fet amb <strong>React</strong> i amb <strong>React-Router</strong> i <strong>TypeScript</strong>. La part  back-end s'ha utilitzat <strong>Node.js</strong> i <strong>Express.js</strong> per, a partir de peticions, retornar respostes estructurades i evitar respostes inesperades.",
     "projects.gpt-assistant.skills": [
         "HTML5",
         "CSS3",
@@ -68,7 +68,7 @@
         "Testing Library"
     ],
     "projects.notify": "Notify!",
-    "projects.notify.description": "El meu primer projecte web va ser 'Notify!', una aplicació basada en una TO-DO List per poder prendre apunts i organitzar-los a la teva manera. També té un sistema d'autenticació per poder desar les teves notes al teu usuari.<br/><br/>El projecte està dividit en dues parts: El front-end està fet amb <b>React</b> i <b>React Router</b>, i el back-end s'ha realitzat amb <b>Django REST Framework</b> per a les sol·licituds i <b>MySQL</b> per desar el contingut de cada usuari.",
+    "projects.notify.description": "El meu primer projecte web va ser 'Notify!', una aplicació basada en una TO-DO List per poder prendre apunts i organitzar-los a la teva manera. També té un sistema d'autenticació per poder desar les teves notes al teu usuari.<br/><br/>El projecte està dividit en dues parts: El front-end està fet amb <strong>React</strong> i <strong>React Router</strong>, i el back-end s'ha realitzat amb <strong>Django REST Framework</strong> per a les sol·licituds i <strong>MySQL</strong> per desar el contingut de cada usuari.",
     "projects.notify.skills": [
         "HTML5",
         "SCSS",
@@ -90,24 +90,24 @@
     "education.tokio-school.course": "Curs de programació en Python i especialització en IA (ML i DL)",
     "education.tokio-school.period": "05/2023 - 05/2025",
     "education.tokio-school.competencies": [
-        "Programació orientada a objectes en <b>Python</b> i preparació per al certificat oficial PCAP.",
-        "Ús de llibreries per a Python com <b>NumPy</b>, <b>Pandas</b> i <b>Flask</b>.",
-        "Entrenament de models supervisats, no supervisats i semi-supervisats amb <b>Scikit-learn</b>."
+        "Programació orientada a objectes en <strong>Python</strong> i preparació per al certificat oficial PCAP.",
+        "Ús de llibreries per a Python com <strong>NumPy</strong>, <strong>Pandas</strong> i <strong>Flask</strong>.",
+        "Entrenament de models supervisats, no supervisats i semi-supervisats amb <strong>Scikit-learn</strong>."
     ],
     "education.tokio-school.projects": [
-        "<span class=\"uppercase font-semibold\">Projecte final de Python:</span> Pàgina web basada en una 'to-do list' amb un sistema bàsic d'autenticació d'usuaris, utilitzant <b>React</b>, <b>Django</b> i <b>MySQL</b>.",
-        "<span class=\"uppercase font-semibold\">Projecte final de Machine Learning:</span> Diversos models especialitzats en classificar correus entrenats amb un conjunt de dades de spam utilitzant <b>Regressió Logística</b>, <b>KNN</b>, <b>Arbres de Decisió Aleatoris</b> i <b>SVM</b>."
+        "<span class=\"uppercase font-semibold\">Projecte final de Python:</span> Pàgina web basada en una 'to-do list' amb un sistema bàsic d'autenticació d'usuaris, utilitzant <strong>React</strong>, <strong>Django</strong> i <strong>MySQL</strong>.",
+        "<span class=\"uppercase font-semibold\">Projecte final de Machine Learning:</span> Diversos models especialitzats en classificar correus entrenats amb un conjunt de dades de spam utilitzant <strong>Regressió Logística</strong>, <strong>KNN</strong>, <strong>Arbres de Decisió Aleatoris</strong> i <strong>SVM</strong>."
     ],
     "education.uvic": "UVIC-UCC Teknós",
     "education.uvic.course": "CFGS en Desenvolupament d'Aplicacions Multiplataforma",
     "education.uvic.period": "09/2020 - 06/2022",
     "education.uvic.competencies": [
-        "Programació orientada a objectes en <b>Java</b> i consultes amb BBDD relacionals <b>SQL</b>.",
-        "Programació amb llenguatges web com <b>HTML5</b>, <b>CSS3</b>, <b>JavaScript/TypeScript</b> i <b>PHP</b>.",
-        "Programació amb altres llenguatges i tecnologies com <b>Python</b>, <b>Android Studio</b>, <b>Git</b>, <b>.NET</b> i <b>Windows Server</b>."
+        "Programació orientada a objectes en <strong>Java</strong> i consultes amb BBDD relacionals <strong>SQL</strong>.",
+        "Programació amb llenguatges web com <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript/TypeScript</strong> i <strong>PHP</strong>.",
+        "Programació amb altres llenguatges i tecnologies com <strong>Python</strong>, <strong>Android Studio</strong>, <strong>Git</strong>, <strong>.NET</strong> i <strong>Windows Server</strong>."
     ],
     "education.uvic.projects": [
-        "<span class=\"uppercase font-semibold\">Projecte final de CFGS:</span> Pàgina web basada en una xarxa social molt simplificada utilitzant <b>Angular</b> com a framework de front-end, <b>Node.js</b> amb <b>Express.js</b> per a l'API REST del back-end i <b>MongoDB</b>."
+        "<span class=\"uppercase font-semibold\">Projecte final de CFGS:</span> Pàgina web basada en una xarxa social molt simplificada utilitzant <strong>Angular</strong> com a framework de front-end, <strong>Node.js</strong> amb <strong>Express.js</strong> per a l'API REST del back-end i <strong>MongoDB</strong>."
     ],
     "skills.page-title": "Habilitats - Adrià Pulido González",
     "skills.page-description": "El portfoli personal d'Adrià Pulido - Descobreix les meves habilitats tècniques i personals.",

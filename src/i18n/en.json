@@ -1,6 +1,6 @@
 {
     "home.page-title": "Portfolio - Adrià Pulido González",
-    "home.page-description": "Adrià Pulido's personal portfolio - Showcasing all my work, academic experience, skills, and projects I have developed.",
+    "home.page-description": "Adrià Pulido's personal portfolio - Showcasing all my work, academic experience, skills, and projects I have developed as fullstack software developer.",
     "home.welcome": "Welcome to my portfolio!",
     "nav.about-me": "About me",
     "nav.work-experience": "Work experience",
@@ -12,20 +12,20 @@
     "about-me.page-description": "Adrià Pulido's personal portfolio - Get to know who I am and what I do.",
     "about-me.title": "Adrià Pulido González",
     "about-me.subtitle": "5-year experienced in software development",
-    "about-me.biography": "I dedicate a large part of my time to programming, both as a hobby and professionally. I have been in this field for 5 years and I am currently studying <b>Python</b> programming and <b>artificial intelligence</b>. Additionally, I develop web projects mainly with <b>React</b>, <b>Angular</b>, <b>Node.js</b>, and <b>Spring Boot</b>. I am constantly keeping up with the latest technological developments and always learning. I always look for solutions to the problems I encounter and adapt to any situation.",
+    "about-me.biography": "<p>I am <strong>Adrià Pulido González</strong>, though some friends know me as well as 'Adje'. The first time I programmed was when I was 14 years old, using programs like <strong>Scratch</strong> and <strong>App Inventor</strong> to create very simple applications. Since then, my interest in <strong>programming</strong> has grown, and for the last <strong>5 years</strong>, I have been seriously dedicated to <strong>software development</strong>, creating <strong>innovative</strong> and <strong>highly useful</strong> projects, such as <strong>AIssistant</strong>.</p><br/><p>During this time, I have worked both professionally and personally. At <strong>SEIDOR</strong>, I learned and became professional as a <strong>programmer</strong>, standing out for <strong>automating and improving production processes</strong> for several companies, which highly valued my work.</p><br/><p>Currently, I continue to develop web projects using the <strong>latest tools</strong> and <strong>technologies</strong> in the market, integrating <strong>artificial intelligence</strong>, a technology I consider key for the future.</p><br/><p>As a developer with experience in <strong>fullstack development</strong>, I am always ready to face any challenge, adapting and seeking innovative solutions.</p>",
     "work-experience.page-title": "Work experience - Adrià Pulido González",
     "work-experience.page-description": "Adrià Pulido's personal portfolio - Learn about my work experience.",
     "work-experience.seidor": "SEIDOR",
     "work-experience.seidor.role": "Fullstack developer in .NET programmmer for SAP Business One",
     "work-experience.seidor.period": "04/2021 - 03/2024",
     "work-experience.seidor.responsabilities": [
-        "Developed new add-ons and improved existing ones for <b>SAP Business One</b> using <b>.NET</b> (<b>Visual Basic</b> and <b>C#</b>), automating processes and creating validated forms that significantly optimized customers' work times and efficiency.",
-        "Managed <b>SQL</b> databases (<b>Microsoft Server SQL</b> and <b>SAP Hana</b>), ensuring data integrity and relationships when creating tables and fields.",
+        "Developed new add-ons and improved existing ones for <strong>SAP Business One</strong> using <strong>.NET</strong> (<strong>Visual Basic</strong> and <strong>C#</strong>), automating processes and creating validated forms that significantly optimized customers' work times and efficiency.",
+        "Managed <strong>SQL</strong> databases (<strong>Microsoft Server SQL</strong> and <strong>SAP Hana</strong>), ensuring data integrity and relationships when creating tables and fields.",
         "Collaborated directly with customers (SMEs and large companies) to identify needs and resolve issues."
     ],
     "work-experience.seidor.achievements": [
-        "After starting as an intern, I obtained a permanent contract in less than 1 year. Over these <b>3 years</b>, my work has been <b>highly valued</b> by customers, colleagues, and supervisors.",
-        "I restructured the code of one of the company's most widely used add-ons, reducing its size by <b>50%</b> and improving processing time by <b>30%</b>. I corrected critical errors and implemented necessary new functionalities by reusing existing code."
+        "After starting as an intern, I obtained a permanent contract in less than 1 year. Over these <strong>3 years</strong>, my work has been <strong>highly valued</strong> by customers, colleagues, and supervisors.",
+        "I restructured the code of one of the company's most widely used add-ons, reducing its size by <strong>50%</strong> and improving processing time by <strong>30%</strong>. I corrected critical errors and implemented necessary new functionalities by reusing existing code."
     ],
     "work-experience.seidor.training": "Occupational risk prevention, computer security and languages.",
     "work-experience.responsabilities-title": "Responsibilities",
@@ -34,7 +34,7 @@
     "projects.page-title": "Projects - Adrià Pulido González",
     "projects.page-description": "Adrià Pulido's personal portfolio - Discover the projects I have completed and the ones I plan to undertake.",
     "projects.aissistant": "AIssistant",
-    "projects.aissistant.description": "AIssistant is a virtual assistant that implements artificial intelligence to perform various functions. This web app is an extension of my previous project, GPT-Assistant, but it's better optimized, better presented, and with the intention of gradually implementing more useful features for people's daily lives in the future.<br/><br/>Currently, you can translate texts into various languages, generate cooking recipes, and obtain curiosities about specific topics, along with a question related to that curiosity.<br/><br/>The project has been developed using <b>Next.js</b> to create both the front-end and back-end. For artificial text generation, <b>Gemini API</b> has been used, while <b>OpenAI API</b> is still being used for creating images.",
+    "projects.aissistant.description": "AIssistant is a virtual assistant that implements artificial intelligence to perform various functions. This web app is an extension of my previous project, GPT-Assistant, but it's better optimized, better presented, and with the intention of gradually implementing more useful features for people's daily lives in the future.<br/><br/>Currently, you can translate texts into various languages, generate cooking recipes, and obtain curiosities about specific topics, along with a question related to that curiosity.<br/><br/>The project has been developed using <strong>Next.js</strong> to create both the front-end and back-end. For artificial text generation, <strong>Gemini API</strong> has been used, while <strong>OpenAI API</strong> is still being used for creating images.",
     "projects.aissistant.skills": [
         "HTML5",
         "CSS3",
@@ -45,7 +45,7 @@
         "Gemini API"
     ],
     "projects.entertaining-media": "Entertaining Media",
-    "projects.entertaining-media.description": "Entertaining Media is a website where you can search all kind of contents to watch, read or play. Its slogan is \"What's your next thing to fight against boredom?\", because in here you can find everything to get entertained in different ways. All the contents shown in this page are fetched from different <b>APIs</b>, such as TMDB (for movies), IGDB (for games) and Google Books API.<br/><br/>This web project was created with <b>Next.js</b> and <b>TypeScript</b>. <b>Server Side Rendering (SSR)</b> is mainly used in most components and it adapts to any device through <b>Responsive Design</b>.",
+    "projects.entertaining-media.description": "Entertaining Media is a website where you can search all kind of contents to watch, read or play. Its slogan is \"What's your next thing to fight against boredom?\", because in here you can find everything to get entertained in different ways. All the contents shown in this page are fetched from different <strong>APIs</strong>, such as TMDB (for movies), IGDB (for games) and Google Books API.<br/><br/>This web project was created with <strong>Next.js</strong> and <strong>TypeScript</strong>. <strong>Server Side Rendering (SSR)</strong> is mainly used in most components and it adapts to any device through <strong>Responsive Design</strong>.",
     "projects.entertaining-media.skills": [
         "HTML5",
         "CSS3",
@@ -53,7 +53,7 @@
         "Next.js"
     ],
     "projects.gpt-assistant": "GPT-assistant",
-    "projects.gpt-assistant.description": "I programmed and designed a webpage that integrates OpenAI's artificial intelligence. In GPT-Assistant, there are two sample pages demonstrating examples of the OpenAI API application: one translates texts into another language, and the other generates recipes based on specified ingredients.<br/><br/>The project has been developed in two parts: The front-end part is done in <b>React</b> and with <b>React-Router</b> and <b>TypeScript</b>. The back-end part uses <b>Node.js</b> and <b>Express.js</b> to return structured responses from requests and avoid unexpected responses.",
+    "projects.gpt-assistant.description": "I programmed and designed a webpage that integrates OpenAI's artificial intelligence. In GPT-Assistant, there are two sample pages demonstrating examples of the OpenAI API application: one translates texts into another language, and the other generates recipes based on specified ingredients.<br/><br/>The project has been developed in two parts: The front-end part is done in <strong>React</strong> and with <strong>React-Router</strong> and <strong>TypeScript</strong>. The back-end part uses <strong>Node.js</strong> and <strong>Express.js</strong> to return structured responses from requests and avoid unexpected responses.",
     "projects.gpt-assistant.skills": [
         "HTML5",
         "CSS3",
@@ -68,7 +68,7 @@
         "Testing Library"
     ],
     "projects.notify": "Notify!",
-    "projects.notify.description": "My first web project was 'Notify!', an application based on a TO-DO List to take notes and organize them yourself. It also has an authentication system to save your notes in your user account.<br/><br/>The project is divided into two parts: The front-end is built with <b>React</b> and <b>React Router</b>, and the back-end is developed using <b>Django REST Framework</b> for requests and <b>MySQL</b> to store each user's content.",
+    "projects.notify.description": "My first web project was 'Notify!', an application based on a TO-DO List to take notes and organize them yourself. It also has an authentication system to save your notes in your user account.<br/><br/>The project is divided into two parts: The front-end is built with <strong>React</strong> and <strong>React Router</strong>, and the back-end is developed using <strong>Django REST Framework</strong> for requests and <strong>MySQL</strong> to store each user's content.",
     "projects.notify.skills": [
         "HTML5",
         "SCSS",
@@ -90,24 +90,24 @@
     "education.tokio-school.course": "Python programming and AI especialitzation (ML & DL) course",
     "education.tokio-school.period": "05/2023 - 05/2025",
     "education.tokio-school.competencies": [
-        "Object-oriented programming in <b>Python</b> and preparation for the official PCAP certificate.",
-        "Use of libraries for Python such as <b>NumPy</b>, <b>Pandas</b> and <b>Flask</b>.",
-        "Training of supervised, unsupervised, and semi-supervised models with <b>Scikit</b>."
+        "Object-oriented programming in <strong>Python</strong> and preparation for the official PCAP certificate.",
+        "Use of libraries for Python such as <strong>NumPy</strong>, <strong>Pandas</strong> and <strong>Flask</strong>.",
+        "Training of supervised, unsupervised, and semi-supervised models with <strong>Scikit</strong>."
     ],
     "education.tokio-school.projects": [
-        "<span class=\"uppercase font-semibold\">Python final project:</span> Web page based on a 'to-do list' with a basic user authentication system, using <b>React</b>, <b>Django</b> and <b>MySQL</b>.",
-        "<span class=\"uppercase font-semibold\">Machine Learning final project:</span> Several models specialized in classifing mails trained by a spam dataset with <b>Logistic Regression</b>, <b>KNN</b>, <b>Random Forests</b> and <b>SVM</b>."
+        "<span class=\"uppercase font-semibold\">Python final project:</span> Web page based on a 'to-do list' with a basic user authentication system, using <strong>React</strong>, <strong>Django</strong> and <strong>MySQL</strong>.",
+        "<span class=\"uppercase font-semibold\">Machine Learning final project:</span> Several models specialized in classifing mails trained by a spam dataset with <strong>Logistic Regression</strong>, <strong>KNN</strong>, <strong>Random Forests</strong> and <strong>SVM</strong>."
     ],
     "education.uvic": "UVIC-UCC Teknós",
     "education.uvic.course": "Vocational Training in Multiplatform Application Development",
     "education.uvic.period": "09/2020 - 06/2022",
     "education.uvic.competencies": [
-        "Object-oriented programming in <b>Java</b> and queries with relational <b>SQL</b> databases.",
-        "Web programming with languages like <b>HTML5</b>, <b>CSS3</b>, <b>JavaScript/TypeScript</b> and <b>PHP</b>.",
-        "Programming with other languages and technologies like <b>Python</b>, <b>Android Studio</b>, <b>Git</b>, <b>.NET</b> and <b>Windows Server</b>."
+        "Object-oriented programming in <strong>Java</strong> and queries with relational <strong>SQL</strong> databases.",
+        "Web programming with languages like <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript/TypeScript</strong> and <strong>PHP</strong>.",
+        "Programming with other languages and technologies like <strong>Python</strong>, <strong>Android Studio</strong>, <strong>Git</strong>, <strong>.NET</strong> and <strong>Windows Server</strong>."
     ],
     "education.uvic.projects": [
-        "<span class=\"uppercase font-semibold\">VT final project:</span> Web page based on a very simplified social network using <b>Angular</b> as a front-end framework, <b>Node.js</b> with <b>Express.js</b> for the API REST back-end and <b>MongoDB</b>."
+        "<span class=\"uppercase font-semibold\">VT final project:</span> Web page based on a very simplified social network using <strong>Angular</strong> as a front-end framework, <strong>Node.js</strong> with <strong>Express.js</strong> for the API REST back-end and <strong>MongoDB</strong>."
     ],
     "skills.page-title": "Skills - Adrià Pulido González",
     "skills.page-description": "Adrià Pulido's personal portfolio - Discover my technical and personal skills.",

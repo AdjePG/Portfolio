@@ -22,7 +22,7 @@ const translations = getTranslations(language)
             <h3 class="text-4xl uppercase font-semibold text-center">{translations["about-me.title"]}</h3>
             <h4 class="mt-2 text-xl uppercase font-semibold text-center">{translations["about-me.subtitle"]}</h4>
             <hr class="my-5 border-2 border-[#cbe0ff] dark:border-[#010b1a]"/>
-            <p class="mt-5" set:html={translations["about-me.biography"]}></p>
+            <div class="mt-5" set:html={translations["about-me.biography"]}></div>
         </div>
     </article>
 </Layout>
