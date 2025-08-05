@@ -2,4 +2,4 @@
 
 # The Adria Pulido's [**PORTFOLIO**](https://adjepg.github.io/Portfolio/) repository
 
-<p align="center">Adrià Pulido González - 2024</p>
+<p align="center">Adrià Pulido Gonzalez - 2024</p>

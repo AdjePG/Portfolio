@@ -20,6 +20,18 @@ const others = {
     translations={translations}
 >
     <WorkExperienceArticle 
+        img=`${import.meta.env.BASE_URL}assets/logos/boyumit_logo.png`
+        company={translations["work-experience.boyumit"] as string}
+        role={translations["work-experience.boyumit.role"] as string}
+        period={translations["work-experience.boyumit.period"] as string}
+        tasks={translations["work-experience.boyumit.responsabilities"] as string[]}
+        achievements={translations["work-experience.boyumit.achievements"] as string[]}
+        training={translations["work-experience.boyumit.training"] as string}
+        others={others}
+        className="w-full"
+    />
+
+    <WorkExperienceArticle 
         img=`${import.meta.env.BASE_URL}assets/logos/seidor_logo.png`
         company={translations["work-experience.seidor"] as string}
         role={translations["work-experience.seidor.role"] as string}
@@ -28,6 +40,6 @@ const others = {
         achievements={translations["work-experience.seidor.achievements"] as string[]}
         training={translations["work-experience.seidor.training"] as string}
         others={others}
-        className="w-full"
+        className="w-full mt-10"
     />
 </Layout>
